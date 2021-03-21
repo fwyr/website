@@ -1,3 +1,3 @@
 # weiyi-m.github.io
 
-My personal website
+Redirects to my latest project.
