@@ -1,4 +1,9 @@
-# weiyi-m.github.io
+# lolcringe.co
 
-Redirects to my latest project.
-Might actually build a personal website if I'm not too busy.
+yooooooooooooooooooooooooooooooooooooooooo personal website update
+
+new url that just **radiates *big man energy***
+
+still redirects to my latest projects
+
+lol expect an actual personal website in like may-june
