@@ -1,28 +1,39 @@
-h2 {
-    font-family: "Helvetica", "Arial", sans-serif;
-    color: #949090
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    background-color: black;
+    color: white;
 }
 
-.hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    color: #949090;
+h1 {
+    text-align: center;
+    font-family: Montserrat, Arial, sans-serif;
 }
 
-.hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #999999;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+.red {
+    color: red;
 }
 
-.hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.large {
+    font-size: 72px;
+}
+
+.larger-anim {
+    animation-name: scaleLarge;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scaleLarge {
+    0% {
+
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+
+    }
 }
