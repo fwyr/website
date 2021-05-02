@@ -18,22 +18,3 @@ h1 {
     font-size: 72px;
 }
 
-.larger-anim {
-    animation-name: scaleLarge;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes scaleLarge {
-    0% {
-
-    }
-
-    50% {
-        transform: scale(1.1);
-    }
-
-    100% {
-
-    }
-}
