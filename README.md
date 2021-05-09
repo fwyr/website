@@ -1,9 +1,9 @@
 # lolcringe.co
 
-yooooooooooooooooooooooooooooooooooooooooo personal website update
+personal website
 
-new url that just **radiates *big man energy***
+new url that just **radiates idiot energy**
 
-still redirects to my latest projects
+it's really just a shitpost website right now, nothing much to see
 
-lol expect an actual personal website in like may-june
+expect an actual personal website in like may-june
