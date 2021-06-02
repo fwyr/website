@@ -15,6 +15,10 @@ h3 {
   font-family: 'Poppins', 'Montserrat', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -87,3 +91,13 @@ nav li a:hover {
   max-width: 60%;
   line-height: 1.4em;
 }
+
+.about-section ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.about-section li {
+  font-family: 'Lato', 'Roboto', sans-serif;
+}
+
