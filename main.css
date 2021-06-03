@@ -184,3 +184,47 @@ nav li a:hover {
 .project-tile:hover {
   transform: scale(1.1)
 }
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.contact-section h1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+  color: white;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+
