@@ -7,7 +7,7 @@
     background-color: #000; }
 
   a {
-    color: rgb(51, 187, 211);
+    color: rgb(211, 123, 51);
     font-weight: bold;
     text-decoration: none; }
 
@@ -42,7 +42,7 @@
       font-weight: 400; }
 
   strong {
-    color: #16a085; }
+    color: #d41c1c; }
 
   .wrapper {
     max-width: 800px;
@@ -230,7 +230,7 @@
 /* =Footer *//*************************************************************/
 
   .rainbow {
-      background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple, pink);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
