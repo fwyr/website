@@ -4,7 +4,7 @@ title: Blog
 subtitle: Select ramblings of Pudhina
 ---
 
-<div>
+<!--<div>
 {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
 <h4 class="post-teaser__month">
@@ -27,4 +27,5 @@ subtitle: Select ramblings of Pudhina
 {% endfor %}
 </ul>
 {% endfor %}
-</div>
+</div>-->
+
