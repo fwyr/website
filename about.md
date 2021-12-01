@@ -7,7 +7,7 @@ subtitle: who am i? who are you?
 <!--<span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
 <br>-->
 
-### some basics
+### 101
 **who?** programmer on a planet.
 
 **where?** a 728.6km² piece of land in South-East Asia known as <a href="https://en.wikipedia.org/wiki/Singapore" target="_blank">Singapore</a>.
