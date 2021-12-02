@@ -40,7 +40,7 @@ i've found a couple gold bars along my journey listed down below, very cool.
 
 <a href="https://sg1lib.org/book/4781843/3489cc" target="_blank" rel="noopener noreferrer"><strong>When Breath Becomes Air.</strong></a> 2016, Paul Kalanithi. philosophy and existentialism.
 
-<a href="https://sg1lib.org/book/1122075/5db343" target="_blank" rel="noopener noreferrer"><strong>Tuesdays with Morrie.</strong></a> 1997, Mitch Albom. self-help.
+<a href="https://sg1lib.org/book/1122075/5db343" target="_blank" rel="noopener noreferrer"><strong>Tuesdays with Morrie.</strong></a> 1997, Mitch Albom. self-help and advice.
 
 <hr>
 
@@ -52,6 +52,8 @@ i've found a couple gold bars along my journey listed down below, very cool.
 <a href="https://www.youtube.com/watch?v=n-4gqm6Ah-A&list=OLAK5uy_kSe0zqlzGwf5yfWX669xqHVEqDzcpm4k0&index=1" target="_blank" rel="noopener noreferrer"><strong>Cuco - Songs4u.</strong></a> bedroom pop. slow n' sad.
 
 <a href="https://www.youtube.com/watch?v=e2qG5uwDCW4&list=OLAK5uy_nkGfAD3M3C_N5qmIsHzTe2hoXD0vepSIQ&index=1" target="_blank" rel="noopener noreferrer"><strong>Jack Stauber - Pop Food.</strong></a> avant-garde lofi/pop. very extremely unique.
+
+<a href="https://www.youtube.com/watch?v=CNgh5ZOE_V4&list=OLAK5uy_kV8CyirvLxmmw2pBKngAeyrZVHEjLubu4&index=2" target="_blank" rel="noopener noreferrer"><strong>Sunset Rollercoaster - JINJI KIKKO.</strong></a> chill synth pop. energetic background(?) music. 
 
 
 

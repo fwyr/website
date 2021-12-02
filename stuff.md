@@ -4,8 +4,7 @@ title: stuff™
 subtitle: not actually trademarked.
 ---
 
-as a regular human being, i tend to do things.
-
-y'know, like normal human things.
-
-two of which are namely **Media Consumption** ([fav](/fav)) and **Information Intake** ([edu](/edu)).
+<div style="text-align: center;">
+    <h1>construction, pushing down on me</h1>
+    <p>this is a work in progress</p>
+</div>
