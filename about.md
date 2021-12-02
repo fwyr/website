@@ -7,7 +7,9 @@ subtitle: who am i? who are you?
 <!--<span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
 <br>-->
 
-### 101
+
+
+## 101
 **who?** programmer on a planet.
 
 **where?** a 728.6km² piece of land in South-East Asia known as <a href="https://en.wikipedia.org/wiki/Singapore" target="_blank">Singapore</a>.
@@ -23,10 +25,9 @@ subtitle: who am i? who are you?
 **browser?** 🔥🦊.
 
 **machine?** macbook air.
-
 <hr>
 
-### skills
+## skills
 **computer languages?** python, c++, javascript, html, css, sass.
 
 **human languages?** english, mandarin.
@@ -34,14 +35,12 @@ subtitle: who am i? who are you?
 **tools?** visual studio code, atom, git.
 
 **other stuff?** piano music.
-
 <hr>
 
-### projects
+## projects
 still a work in progress.
-
 <hr>
 
-### education
+## education
 a very long work in progress.
 
