@@ -1,4 +1,3 @@
-# lolcringe.co
+# it's my personal website
 
-personal website
-
+@ lolcringe.co
