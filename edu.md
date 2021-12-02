@@ -31,8 +31,4 @@ subtitle: masochism.
 
 
 ## programming
-<ul class="list-posts">
-<li class="post-teaser">
-<a href="./programming/data-structures" class="post-teaser__title">
-<strong>data structures</strong>
-<li>
+[**data structures**](/programming/data-structures)
