@@ -31,4 +31,4 @@ subtitle: masochism.
 
 
 ## programming
-[**data structures**](/programming/data-structures)
+[**data structures**]({{ site.baseurl }}/edu/programming/data-structures)
