@@ -29,14 +29,18 @@ subtitle: it's just my opinion.
 {% endfor %}
 </div>-->
 
+in my free time when i'm not torturing myself with programming or education, i tend to recreationally consume the world. 
+
+i've found a couple gold bars along my journey listed down below, very cool.
+
 ## books
-<a href="https://sg1lib.org/book/3397089/dfef7e" target="_blank" rel="noopener noreferrer"><strong>1984.</strong></a> 1949, George Orwell. pretty fun book that depicts a dystopian future swamped by extreme authoritarianism, mass surveillance, and repression.
+<a href="https://sg1lib.org/book/3397089/dfef7e" target="_blank" rel="noopener noreferrer"><strong>1984.</strong></a> 1949, George Orwell. authoritarianism, mass surveillance, and repression.
 
-<a href="https://sg1lib.org/book/3987740/fb09a8" target="_blank" rel="noopener noreferrer"><strong>Everything, Everything.</strong></a> 2015, Nicola Yoon. an unexpected rollercoaster of a ride with romance, disease, and heartbreak.
+<a href="https://sg1lib.org/book/3987740/fb09a8" target="_blank" rel="noopener noreferrer"><strong>Everything, Everything.</strong></a> 2015, Nicola Yoon. romance, disease and heartbreak.
 
-<a href="https://sg1lib.org/book/4781843/3489cc" target="_blank" rel="noopener noreferrer"><strong>When Breath Becomes Air.</strong></a> 2016, Paul Kalanithi. a doctor becomes the patient. filled with philosophy and existentialism.
+<a href="https://sg1lib.org/book/4781843/3489cc" target="_blank" rel="noopener noreferrer"><strong>When Breath Becomes Air.</strong></a> 2016, Paul Kalanithi. philosophy and existentialism.
 
-<a href="https://sg1lib.org/book/1122075/5db343" target="_blank" rel="noopener noreferrer"><strong>Tuesdays with Morrie.</strong></a> 1997, Mitch Albom. probably the best self-help book ever.
+<a href="https://sg1lib.org/book/1122075/5db343" target="_blank" rel="noopener noreferrer"><strong>Tuesdays with Morrie.</strong></a> 1997, Mitch Albom. self-help.
 
 <hr>
 
