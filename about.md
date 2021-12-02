@@ -14,14 +14,15 @@ subtitle: who am i? who are you?
 
 **why?** why become a programmer? no idea. why make a website? they're cool.
 
-**when?** <a href="//24timezones.com/Singapore/time" style="text-decoration: none" class="clock24" id="tz24-1638359115-c1236-eyJob3VydHlwZSI6IjI0Iiwic2hvd2RhdGUiOiIxIiwic2hvd3NlY29uZHMiOiIxIiwic2hvd3RpbWV6b25lIjoiMSIsInR5cGUiOiJkIiwibGFuZyI6ImVuIn0=" title="Singapore clock" target="_blank" rel="nofollow">time in singapore</a>
-<script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
-
 **age?** 13.8 billion years.
 
 **pronouns?** they/them, but fine with anything (for now).
 
 **hobbies?** typing, books, music, poems, math, chess.
+
+**browser?** 🔥🦊.
+
+**machine?** macbook air.
 
 <hr>
 
