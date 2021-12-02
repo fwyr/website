@@ -42,7 +42,7 @@
       font-weight: 400; }
 
   strong {
-    color: #d41c1c; }
+    color: rgb(212, 27, 27); }
 
   .wrapper {
     max-width: 800px;
@@ -230,7 +230,7 @@
 /* =Footer *//*************************************************************/
 
   .rainbow {
-      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple, pink);
+      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple, red, orange, yellow);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
