@@ -1,7 +1,7 @@
 ---
 layout: page
 title: education
-subtitle: masochism.
+subtitle: masochism in disguise.
 ---
 
 <!--<div>
@@ -32,3 +32,5 @@ subtitle: masochism.
 
 ## programming
 [data structures]({{ site.baseurl }}/edu/programming/data-structures)
+
+
