@@ -44,6 +44,18 @@
   strong {
     color: #ffbb00; }
 
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.45em;
+  }
+
+  h4 {
+    font-size: 1.25em;
+  }
+
   .wrapper {
     max-width: 800px;
     margin: 60px auto; }
@@ -270,6 +282,27 @@
     transform: scaleX(0.5);
     transform-origin: bottom left;
   }
+
+/* =Table of contents *//*************************************************************/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #111111;}
+
+tr:hover {background-color: #333333;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
   .glitch {

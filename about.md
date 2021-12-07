@@ -34,7 +34,7 @@ subtitle: who am i? who are you?
 
 **tools?** visual studio code, atom, git.
 
-**other stuff?** piano music.
+**other stuff?** piano and music theory.
 <hr>
 
 ## projects
