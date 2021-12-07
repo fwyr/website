@@ -36,7 +36,7 @@ for (auto x: y) {
     cout << z[i] << endl; // does same as above but shorter, C++11 extension
 }
 ```
-<br>
+<hr>
 
 ## sets
 a **set** is a data structure that maintains a collection of elements. sets support element insertion, search, and removal, but elements within a set cannot be obtained using the `[]` notation.
@@ -62,7 +62,7 @@ for (auto x: s) {
     cout << x << endl; // prints all values in s
 }
 ```
-<br>
+<hr>
 
 ## maps
 a **map** is an array that consists of key-value pairs. 
@@ -83,7 +83,7 @@ for (auto x: m) {
 	cout << x.first << " " << x.second << endl; // prints key then value
 }
 ```
-<br>
+<hr>
 
 ## deque
 a **deque** is a dynamic array, much alike a vector. a deque allows the functions `push_back` and `pop_back`, but also allows the functions `push_front` and `pop_front`.
@@ -99,7 +99,7 @@ d.push_front(8); // [8, 5, 1]
 d.pop_back(); // [8, 5]
 d.pop_front(); // [5]
 ```
-<br>
+<hr>
 
 ## stack
 a **stack** is a data structure that only allows operations to be performed on the top (last) element of a stack.
@@ -115,7 +115,7 @@ s.push(2); // [5, 7, 2]
 s.pop(); // [5, 7]
 cout << s.top(); // 7
 ```
-<br>
+<hr>
 
 ## queue
 a **queue** allows the addition of an element to the end of the data structure, as well as the removal of the first element in the queue. only the first and last elements of a queue can be accessed.
