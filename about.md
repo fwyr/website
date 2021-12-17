@@ -24,7 +24,7 @@ subtitle: who am i? who are you?
 <hr>
 
 ## skills
-**computer languages?** python, c++, javascript, html, css, sass.
+**computer languages?** python, c++, javascript, html, css.
 
 **human languages?** english, mandarin.
 
