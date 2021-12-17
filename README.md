@@ -1,4 +1,4 @@
-# lolcringe.co
+# my website
 
 This respository contains the code of my own little droplet of a website within the vast, infinite sea of the Internet.
 
