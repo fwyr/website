@@ -14,10 +14,6 @@ subtitle: who am i? who are you?
 
 **where?** a 728.6km² piece of land in South-East Asia known as <a href="https://en.wikipedia.org/wiki/Singapore" target="_blank">Singapore</a>.
 
-**why?** why become a programmer? no idea. why make a website? they're cool.
-
-**age?** 13.8 billion years.
-
 **pronouns?** they/them, but fine with anything (for now).
 
 **hobbies?** typing, books, music, poems, math, chess.
