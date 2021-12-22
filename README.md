@@ -2,7 +2,7 @@
 
 This respository contains the code of my own little droplet of a website within the vast, infinite sea of the Internet.
 
-Still a work in progress. Feel free to access it at [https://lolcringe.co](https://lolcringe.co).
+Still a work in progress. Feel free to access it [here](https://lolcringe.co).
 
 Built using:
 - HTML, CSS, JavaScript
