@@ -4,12 +4,12 @@ description: >
   there's something here.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://lolcringe.co" # the base hostname & protocol for your site
+url: "https://ablipintime.co" # the base hostname & protocol for your site
 
 author:
-  fullname: Pudhina
-  github: object-oriented-human
-  email: hello@lolcringe.co
+  fullname: foop
+  github: foooop
+  email: hello@ablipintime.co
 
 
 # Syntax highlighting
