@@ -14,21 +14,21 @@ subtitle: who am i? who are you?
 
 **where?** a 728.6km² piece of land in South-East Asia known as <a href="https://en.wikipedia.org/wiki/Singapore" target="_blank">Singapore</a>.
 
-**pronouns?** they/them, but fine with anything (for now).
+**pronouns?** he/they/she.
 
 **hobbies?** typing, books, music, poems, math, chess.
 
-**browser?** 🔥🦊.
+**browser?** firefox.
 
-**machine?** macbook air.
+**machine?** macbook air 2020.
 <hr>
 
 ## skills
-**computer languages?** python, c++, javascript, html, css.
+**computer languages?** python, c++, html5, css3, javascript.
 
 **human languages?** english, mandarin.
 
-**tools?** visual studio code, atom, git.
+**tools?** visual studio code, atom, juptyer notebook, google colaboratory, git
 
 **other stuff?** piano and music theory.
 <hr>
