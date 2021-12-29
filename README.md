@@ -2,7 +2,7 @@
 
 In brief, this repository contains the code of my website.
 
-Still a work in progress. Feel free to access it [here](https://lolcringe.co).
+Still a work in progress. Feel free to access it [here](https://ablipintime.co).
 
 Built using:
 - HTML, CSS, JavaScript
