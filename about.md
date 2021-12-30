@@ -28,7 +28,7 @@ subtitle: who am i? who are you?
 
 **human languages?** english, mandarin.
 
-**tools?** visual studio code, atom, juptyer notebook, google colaboratory, git
+**tools?** visual studio code, atom, jupyter notebook, google colaboratory, git
 
 **other stuff?** piano and music theory.
 <hr>
