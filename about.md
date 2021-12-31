@@ -2,6 +2,7 @@
 layout: page
 title: about me
 subtitle: who am i? who are you?
+headtitle: a blip in time - about
 ---
 
 <!--<span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
