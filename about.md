@@ -11,7 +11,7 @@ headtitle: a blip in time - about
 
 
 ## 101
-**who?** programmer on a planet.
+**who?** i'm foop, a programmer on a planet.
 
 **where?** a 728.6km² piece of land in South-East Asia known as <a href="https://en.wikipedia.org/wiki/Singapore" target="_blank">Singapore</a>.
 
