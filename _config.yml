@@ -7,8 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://ablipintime.co" # the base hostname & protocol for your site
 
 author:
-  fullname: foop
-  github: foooop
+  fullname: fwy
+  github: objecteds
   email: hello@ablipintime.co
 
 

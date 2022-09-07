@@ -1,7 +1,7 @@
 ---
 layout: page
-title: hey, i'm foop!
-subtitle: pronounced /fuːp/
+title: hey, i'm fwy!
+subtitle: pronounced /'fwi/
 sitemap:
   priority: 0.9
 ---
