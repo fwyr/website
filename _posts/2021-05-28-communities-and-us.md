@@ -6,7 +6,7 @@ date:   2021-05-28 00:00:00 +0800
 categories: essays 
 ---
 
-> *This essay received a **Gold** award in the Queen's Commonwealth Essay Competition 2021.*
+> *This essay received a **Gold** award in the [Queen's Commonwealth Essay Competition 2021](https://www.royalcwsociety.org/essay-competition).*
 
 &nbsp;&nbsp;&nbsp;&nbsp;“The greatness of a community is most accurately measured by the compassionate actions of its members,” said Coretta Scott King, an American author and the wife of American civil rights activist Martin Luther King Jr.
 

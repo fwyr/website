@@ -6,7 +6,7 @@ date:   2022-05-26 00:00:00 +0800
 categories: essays 
 ---
 
-> *This essay received a **Distinction** award in the <a href="https://www.liveon.gov.sg/festival2022-awards.html" target="_blank">LiveOn Festival 2022 Essay Competition.</a>*
+> *This essay received a **Distinction** award in the [LiveOn Festival 2022 Essay Competition](https://www.liveon.gov.sg/festival2022-awards.html).</a>*
 
 &nbsp;&nbsp;&nbsp;&nbsp;An orchestra of machinery emits a staccato of whirs and beeps, awkward yet recognisable in its polyrhythmic nature. Professionals stroll in tailored laboratory coats, comforting the frantic eyes that shoot glances around the whitewashed walls of spiralling hallways, illuminated by a myriad of fluorescent lights. 
 
