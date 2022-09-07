@@ -11,13 +11,13 @@ headtitle: a blip in time - about
 
 
 ## 101
-**who?** i'm foop, a programmer on a planet.
+**who?** i'm fwy, a programmer on a planet.
 
 **where?** a 728.6km² piece of land in South-East Asia known as <a href="https://en.wikipedia.org/wiki/Singapore" target="_blank">Singapore</a>.
 
-**pronouns?** he/they/she.
+**pronouns?** any.
 
-**hobbies?** typing, books, music, poems, math, chess.
+**hobbies?** mathematics, competitive typing, reading, writing, having deep discussions with my cats.
 
 **browser?** firefox.
 
@@ -25,7 +25,7 @@ headtitle: a blip in time - about
 <hr>
 
 ## skills
-**computer languages?** python, c++, html5, css3, javascript.
+**computer languages?** python, c++, html, css, javascript.
 
 **human languages?** english, mandarin.
 
