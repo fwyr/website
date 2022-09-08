@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Communities and Us"
-subtitle: "Discuss the following: 'The greatness of a community is most accurately measured by the compassionate actions of its members.' - Coretta Scott King"
+subtitle: "Discuss the following: 'The greatness of a community is most accurately measured by the compassionate actions of its members.'' – Coretta Scott King"
 date:   2021-05-28 00:00:00 +0800
 categories: essays 
 ---

@@ -13,7 +13,7 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+    font-size: 200%;
 }
 
 h3 {
@@ -48,10 +48,10 @@ main {
     margin-left: 30%;
     margin-right: 30%;
     font-family: 'Rubik', sans-serif;
-    font-size: 1.2em;
+    font-size: 120%;
 }
 
 .welcome-section li {
     font-family: 'Rubik', sans-serif;
-    line-height: 1.5em;
+    line-height: 150%;
 }
