@@ -4,13 +4,12 @@ description: >
   there's something here.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://ablipintime.co" # the base hostname & protocol for your site
+url: "https://www.ablipintime.co" # the base hostname & protocol for your site
 
 author:
   fullname: fwy
   github: objecteds
   email: hello@ablipintime.co
-
 
 # Syntax highlighting
 highlightstyle: 'agate'
@@ -21,3 +20,6 @@ styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.lig
 highlighter: null
 markdown: kramdown
 exclude: [.obsidian]
+plugins:
+  - jekyll-seo-tag
+
