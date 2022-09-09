@@ -23,7 +23,7 @@ h3 {
 a {
     color: #ef233c;
     font-weight: bold;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 main {
@@ -44,7 +44,8 @@ main {
     margin-right: 30%;
 }
 
-.welcome-section ol, p {
+.welcome-section ol,
+p {
     margin-left: 30%;
     margin-right: 30%;
     font-family: 'Rubik', sans-serif;

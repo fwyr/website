@@ -3,6 +3,7 @@ layout: page
 title: stuff™
 subtitle: not actually trademarked.
 headtitle: a blip in time - stuff™
+toc: false
 ---
 
 <div>

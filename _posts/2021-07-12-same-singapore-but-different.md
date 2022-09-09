@@ -1,23 +1,21 @@
 ---
-layout: page
+layout: post
 title: "Same Singapore But Different"
-subtitle: "Sustainability: Building Resilience and Inclusiveness in Fighting COVID-19"
+subtitle: "singaporean ramblings on covid-19"
 date:   2021-07-12 00:00:00 +0800
 categories: essays
+toc: true
 ---
 
-> *This essay was **shortlisted** in the [SG75 Our Singapore Competition 2021](https://sg75.sg/archive/competition-themes/about-our-sg75-competition-2021-edition").*
+{: .abstract}
+This essay was **shortlisted** in the [SG75 Our Singapore Competition 2021](https://sg75.sg/archive/competition-themes/about-our-sg75-competition-2021-edition"). It talks about the various challenges that Singapore has faced within the past few months, as well as a few personal insights as to how the country of Singapore can thrive under such circumstances.
 
-## Topic
-COVID-19 substantially changed the way of life for people of Singapore and countries globally. <br>
-Singapore as a country has never faced a pandemic of this proportion. The SARS virus of 2003 pales in comparison to COVID-19. <br>
-This may be a precursor of what is to come. <br>
-Unfortunately, COVID-19 may not be the last major pandemic that will hit Singapore or the world. <br>
-What is your vision and plan if it happens again? How will your reflections and experiences shape and encourage future Singaporeans? <br>
+# Topic
+**Sustainability: Building Resilience and Inclusiveness in Fighting COVID-19**
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;COVID-19 substantially changed the way of life for people of Singapore and countries globally. Singapore as a country has never faced a pandemic of this proportion. The SARS virus of 2003 pales in comparison to COVID-19. This may be a precursor of what is to come. Unfortunately, COVID-19 may not be the last major pandemic that will hit Singapore or the world. What is your vision and plan if it happens again? How will your reflections and experiences shape and encourage future Singaporeans? 
 
-<hr>
-
-## Essay
+# Essay
 &nbsp;&nbsp;&nbsp;&nbsp;“With unity, we can do great things. Important things. We can right wrongs. We can put people to work in good jobs. We can teach our children in safe schools. We can overcome this deadly virus.”  
 
 &nbsp;&nbsp;&nbsp;&nbsp;On January 20, 2021, at approximately 11:52 AM EST, the newly-elected President of the United States Joe Biden articulated these words with conviction.  It is obvious that the United States of America and Singapore are separate countries, on opposite ends of the Earth, but his words during the inauguration speech not only shook the hearts of Americans, but it also tugged at the heartstrings of humans located all over the world, including many citizens here, living behind a blue surgical mask, in the humble abode of an island that is the Little Red Dot.
@@ -48,9 +46,7 @@ What is your vision and plan if it happens again? How will your reflections and 
 
 (2401 words)
 
-<hr>
-
-## Bibliography
+# References
 Cheong, D. (2020, April 22). Wage support will be extended to second circuit breaker month of May: DPM Heng Swee Keat. The Straits Times. <br>
 <https://www.straitstimes.com/singapore/health/wage-support-will-be-extended-to-second-circuit-breaker-month-of-may-dpm-heng-swee>
 

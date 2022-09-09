@@ -1,13 +1,20 @@
 ---
-layout: page
+layout: post
 title: "Communities and Us"
-subtitle: "Discuss the following: 'The greatness of a community is most accurately measured by the compassionate actions of its members.'' – Coretta Scott King"
+subtitle: "on the greatness of communities"
 date:   2021-05-28 00:00:00 +0800
 categories: essays 
+toc: true
 ---
 
-> *This essay received a **Gold** award in the [Queen's Commonwealth Essay Competition 2021](https://www.royalcwsociety.org/essay-competition).*
 
+{: .abstract}
+This essay received a **Gold** award in the [Queen's Commonwealth Essay Competition 2021](https://www.royalcwsociety.org/essay-competition). Contains thoughts on leaders, activism, change, and communities.
+
+# Here's The Topic For Reference :)
+"Discuss the following: 'The greatness of a community is most accurately measured by the compassionate actions of its members.'' – Coretta Scott King".
+
+# Essay
 &nbsp;&nbsp;&nbsp;&nbsp;“The greatness of a community is most accurately measured by the compassionate actions of its members,” said Coretta Scott King, an American author and the wife of American civil rights activist Martin Luther King Jr.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Although Coretta Scott King died in 2006, her and her husband’s legacy to end injustice still plays a critical, essential role in modern society. Last year, we saw countries around the world struggling under mountainous conflicts, torrents of political and social unrest present in every nook and cranny. The prevalent coronavirus pandemic has divided many communities, as both groups and individuals took their own sides to ascertain the validity of rumours surrounding the disease. Apart from the global pandemic, we have witnessed a tornado of major events in 2020. The death of George Floyd and many other African-American individuals, such as Breonna Taylor and Ahmaud Arbery, sparked a worldwide movement to recognise the lives of people of colour, and to put an end to police brutality, white supremacy, and racism. World leaders insulted Donald Trump as he became the first president of the United States of America to be impeached twice following the Capitol storm earlier this year, causing the global image of the U.S. to plummet. Wildfires, earthquakes, floods, and even an explosion in Lebanon unfortunately took the lives of many innocents.
