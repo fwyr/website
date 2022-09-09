@@ -5,15 +5,10 @@ subtitle: who am i? who are you?
 headtitle: a blip in time - about
 ---
 
-<!--<span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
-<br>-->
-
-
-
 ## 101
 **who?** i'm fwy, a programmer on a planet.
 
-**where?** a 728.6km² piece of land in Southeast Asia known as <a href="https://en.wikipedia.org/wiki/Singapore" target="_blank">Singapore</a>.
+**where?** a 728.6km² piece of land in Southeast Asia known as [Singapore](https://en.wikipedia.org/wiki/Singapore).
 
 **pronouns?** any.
 

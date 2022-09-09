@@ -1,13 +1,19 @@
 ---
-layout: page
+layout: post
 title: "Stronger Within"
-subtitle: "Singapore’s conservative culture is the root cause of the country’s low organ donation rates. Discuss."
+subtitle: organ donation in a conservative singapore
 date:   2022-05-26 00:00:00 +0800
 categories: essays 
+toc: true
 ---
 
-> *This essay received a **Distinction** award in the [LiveOn Festival 2022 Essay Competition](https://www.liveon.gov.sg/festival2022-awards.html).*
+{: .abstract}
+This essay received a **Distinction** award in the [LiveOn Festival 2022 Essay Competition](https://www.liveon.gov.sg/festival2022-awards.html). Harbouring progressive perspectives on the future of the medical world, this piece explores the conservative and societal hindrances faced by modern organ donation.
 
+# Topic
+Singapore’s conservative culture is the root cause of the country’s low organ donation rates. Discuss.
+
+# Essay
 &nbsp;&nbsp;&nbsp;&nbsp;An orchestra of machinery emits a staccato of whirs and beeps, awkward yet recognisable in its polyrhythmic nature. Professionals stroll in tailored laboratory coats, comforting the frantic eyes that shoot glances around the whitewashed walls of spiralling hallways, illuminated by a myriad of fluorescent lights. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;In one austere room, family members huddle around an emaciated man lying in a hospital bed, their spirits clinging onto the last bits of hope they have. Uncontrollable tears moisten their grief-stricken faces, accursed with the knowledge that all good things eventually come to an end.
@@ -33,3 +39,13 @@ categories: essays
 &nbsp;&nbsp;&nbsp;&nbsp;In essence, the relationship between conservatism within Singapore and Singapore’s low organ donation rates is greatly noticeable with striking clarity, providing many explanations as to why Singapore has such a low proportion of the amount of organ donors to the amount of citizens. Some factors include religious and spiritual beliefs, as an allocation of certain religions dictate that the physical body of a human being should not be disturbed even upon death. Others may also struggle to understand the logistics and intricate details surrounding brain death, organ donation, and presumed consent. In order to increase Singapore’s organ donation rates, it may be important for the government to take active steps in publicly educating citizens about practices and policies such as HOTA, thereby clearing up confusion about medical operations surrounding organ donation and transplantation and reducing ignorance among the general population. It is also important for family members to have a discussion about such a sensitive yet important topic, for a simple conversation may do wonders in helping others understand the concept of organ donation. To end off, I believe that one day, organ donation will be normalised and understood by virtually everyone, allowing Singapore to progress with significance and dignity, thereby allowing our nation to be, both figuratively and literally, stronger within.
 
 (1421 words)
+
+<!--
+# Research & References
+[Organ donation](https://en.wikipedia.org/wiki/Organ_donation) is a tricky subject, constantly under fire from heated discussions on the ethical treatment of human bodies, general confusion over whether [brain death](https://en.wikipedia.org/wiki/Brain_death) can be considered as an almost-equivalent counterpart to actual death, as well as the limitations caused by personal beliefs and innate feelings.
+
+[Conversatism](https://en.wikipedia.org/wiki/Conservatism) much akin to organ donation, is yet another tricky subject (but let's be honest, what's not?). I take its definition to be a basic one: a political ideology or doctrine that highlights the value of traditional values, including religion and a general untoward pertaining to progressive values. For the sake of simplicity, let's throw in modern science as part of "progressive values", though I believe that majority of those who possess a disdainful attitude towards the practice of organ donation are simply misinformed. 
+
+Taking the country of China as a exemplary case study, there appears to be a logical and [observable correlation between dismally low organ donation rates and traditionalist and antiquated values](https://pubmed.ncbi.nlm.nih.gov/25488562/). Some sources report that only [6,000 to 9,000 organ transplants](https://www.downtoearth.org.in/news/confucian-beliefs-hindering-organ-donation-in-china-48183) are performed in China annually (out of the 300,000 required), -->
+
+
