@@ -1,16 +1,30 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*************** VARIABLES ***************/
+:root {
+  --main-font-family: 'Quicksand', sans-serif;
+  --main-text-color: #ccc;
+  --main-background-color: #111111;
+  --main-bold-color: #ffbb00;
+  --main-anchor-color: #ef233c;
+  --main-border-color: #aaa;
+  --hover-anchor-color: #ef233bc7;
+  --toc-anchor-color: #e2e2e2;
+  --toc-hover-anchor-color: #fff;
+  --toc-background-color: #222;
+}
+
 /*************** BASE ***************/
-body { 
-  font-family: 'Quicksand', sans-serif;
+body {
+  font-family: var(--main-font-family);
   font-size: 100%;
-  color: #edf2f4;
-  background-color: #111111;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
 }
 
 a {
-  color: #ef233c;
+  color: var(--main-anchor-color);
   font-weight: bold;
   text-decoration: none;
 }
@@ -21,7 +35,7 @@ ol,
 dl {
   font-size: 20px;
   line-height: 32px;
-  color: #ccc;
+  color: var(--main-text-color);
 }
 
 img {
@@ -56,7 +70,7 @@ blockquote p {
 }
 
 strong {
-  color: #ffbb00;
+  color: var(--main-bold-color);
 }
 
 h1 {
@@ -89,7 +103,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #111111;
+  background-color: var(--main-background-color);
 }
 
 tr:hover {
@@ -122,7 +136,6 @@ th {
 .logo {
   font-size: 300%;
   font-weight: 700;
-  color: #16a085;
   display: block;
 }
 
@@ -149,13 +162,12 @@ th {
 }
 
 .menu__entry a:hover {
-  color: #ef233bc7
+  color: var(--hover-anchor-color);
 }
 
 .social-links {
   float: right;
   font-size: 150%;
-  color: #828282;
   list-style-type: none;
 }
 
@@ -165,13 +177,13 @@ th {
 }
 
 .social-links a:hover {
-  color: #ef233bc7
+  color: var(--hover-anchor-color);
 }
 
 
 /*************** MAIN ***************/
 .main a:hover {
-  color: #ef233bc7
+  color: var(--hover-anchor-color);
 }
 
 /*************** TITLE ***************/
@@ -228,12 +240,12 @@ th {
 
 /*************** TABLE OF CONTENTS ***************/
 .toc {
-  border: 1px solid #aaa;
+  border: 1px solid var(--main-border-color);
   margin: 0 2rem 1.5rem 0;
   max-width: 285px;
   padding-right: 2em;
   float: left;
-  background-color: #222;
+  background-color: var(--toc-background-color);
   overflow-wrap: break-word;
 }
 
@@ -262,19 +274,19 @@ th {
 .toc a {
   display: inline-block;
   padding-right: 1.0em;
-  color: #e5e5e5;
+  color: var(--toc-anchor-color);
 }
 
 .toc a:hover {
-  color: white;
+  color: var(--toc-hover-anchor-color);
   background-color: #363636;
 }
 
 /*************** ABSTRACT ***************/
 .abstract {
   margin: 0 0 1.5em 0;
-  background-color: #222;
-  border: 1px solid #aaa;
+  background-color: var(--toc-background-color);
+  border: 1px solid var(--main-border-color);
   padding: 0.9rem 1.25rem 0.95rem 1.25rem;
   overflow: hidden;
 }
@@ -316,6 +328,7 @@ th {
 
 /*************** MEDIA QUERIES (FOR SMALL SCREENS) ***************/
 @media (max-width: 500px) {
+
   p,
   ul,
   ol,
