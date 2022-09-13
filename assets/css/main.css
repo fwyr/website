@@ -1,7 +1,7 @@
-@charset "UTF-8";
+/*@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*************** VARIABLES ***************/
+/*************** VARIABLES **************
 :root {
   --main-font-family: 'Quicksand', sans-serif;
   --main-text-color: #ccc;
@@ -12,10 +12,10 @@
   --hover-anchor-color: #ef233bc7;
   --toc-anchor-color: #e2e2e2;
   --toc-hover-anchor-color: #fff;
-  --toc-background-color: #222;
+  --toc-background-color: #222; 
 }
 
-/*************** BASE ***************/
+/*************** BASE **************
 body {
   font-family: var(--main-font-family);
   font-size: 100%;
@@ -124,7 +124,7 @@ th {
   padding-right: 40px
 }
 
-/*************** HEADER ***************/
+/*************** HEADER **************
 .header {
   overflow: hidden;
 }
@@ -181,12 +181,12 @@ th {
 }
 
 
-/*************** MAIN ***************/
+/*************** MAIN **************
 .main a:hover {
   color: var(--hover-anchor-color);
 }
 
-/*************** TITLE ***************/
+/*************** TITLE **************
 .page-title {
   margin: 30px auto;
   text-align: center;
@@ -203,7 +203,7 @@ th {
   color: #828282;
 }
 
-/*************** POST TEASERS ***************/
+/*************** POST TEASERS **************
 .list-posts {
   list-style-type: none;
   padding: 0px;
@@ -238,7 +238,7 @@ th {
   text-align: center;
 }
 
-/*************** TABLE OF CONTENTS ***************/
+/*************** TABLE OF CONTENTS **************
 .toc {
   border: 1px solid var(--main-border-color);
   margin: 0 2rem 1.5rem 0;
@@ -282,7 +282,7 @@ th {
   background-color: #363636;
 }
 
-/*************** ABSTRACT ***************/
+/*************** ABSTRACT **************
 .abstract {
   margin: 0 0 1.5em 0;
   background-color: var(--toc-background-color);
@@ -291,12 +291,12 @@ th {
   overflow: hidden;
 }
 
-/*************** MAIN CONTENT ***************/
+/*************** MAIN CONTENT **************
 .post .content a {
   border-bottom: 1px dotted #999
 }
 
-/*************** FOOTER ***************/
+/*************** FOOTER **************
 .footer {
   color: #828282;
   text-align: center;
@@ -312,7 +312,7 @@ th {
   font-size: 100%;
 }
 
-/* Main Page */
+/* Main Page 
 #about-img {
   border-radius: 13%;
   max-width: 125px;
@@ -326,7 +326,7 @@ th {
   width: 100%;
 }
 
-/*************** MEDIA QUERIES (FOR SMALL SCREENS) ***************/
+/*************** MEDIA QUERIES (FOR SMALL SCREENS) **************
 @media (max-width: 500px) {
 
   p,
@@ -384,7 +384,7 @@ th {
   }
 }
 
-/*************** LOGO ANIMATION ***************/
+/*************** LOGO ANIMATION **************
 .rainbow {
   background: linear-gradient(to right, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d, #ff0018, #ffa52c, #ffff41);
   -webkit-background-clip: text;
@@ -406,7 +406,7 @@ th {
   }
 }
 
-/**************** GLITCH ANIMATION (from http://codepen.io/bulby97/pen/fcvay) ****************/
+/**************** GLITCH ANIMATION (from http://codepen.io/bulby97/pen/fcvay) ***************
 .glitch {
   position: relative;
   animation: glitch 2s steps(100) infinite;
@@ -824,4 +824,4 @@ th {
 
 .go-home {
   text-align: center;
-}
+}*/
