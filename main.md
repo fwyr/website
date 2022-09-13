@@ -1,13 +1,11 @@
 ---
 layout: page
-title: hey, i'm fwy!
-subtitle: pronounced /'fwi/
+title: fwy.
 sitemap:
   priority: 0.9
 toc: false
 ---
 
-<div id="describe-text">
-	<p>local programmer, maker of things.</p>
-</div>
-
+<p style="text-align: center">
+	local programmer, maker of things.
+</p>

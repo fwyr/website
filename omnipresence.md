@@ -1,8 +1,8 @@
 ---
 layout: page
-title: stuff™
+title: omnipresence™
 subtitle: not actually trademarked.
-headtitle: a blip in time - stuff™
+headtitle: a blip in time - omnipresence™
 toc: false
 ---
 
