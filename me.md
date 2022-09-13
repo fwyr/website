@@ -1,7 +1,7 @@
 ---
-layout: page
-title: about me
-subtitle: who am i? who are you?
+layout: post
+title: me
+subtitle: who am i to you?
 headtitle: a blip in time - about
 ---
 
@@ -10,7 +10,7 @@ headtitle: a blip in time - about
 
 **where?** a 728.6km² piece of land in Southeast Asia known as [Singapore](https://en.wikipedia.org/wiki/Singapore).
 
-**pronouns?** any.
+**pronouns?** he/she/they/it.
 
 **obsessions?** math, typography, cats, literature, physics.
 

@@ -1,0 +1,605 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+:root {
+    --main-text-color: #ccc;
+    --main-title-color: #eee;
+    --main-emphasis-color: #fff;
+    --main-anchor-color: #fff;
+    --main-hover-anchor-color: #ffffff80;
+    --body-font-family: 'Comfortaa', sans-serif;
+    --logo-font-family: 'Poppins', sans-serif;
+    --menu-font-family: 'Poppins', sans-serif;
+    --title-font-family: 'Poppins', sans-serif;
+    --main-background-color: #111111;
+}
+
+body {
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+    font-family: var(--body-font-family);
+}
+
+article {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--main-title-color);
+    font-family: var(--title-font-family);
+    font-size: 150%;
+}
+
+p,
+ul,
+ol,
+li {
+    font-size: 110%;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-anchor-color);
+}
+
+strong,
+b,
+em,
+i {
+    color: var(--main-emphasis-color);
+}
+
+.wrapper {
+    max-width: 70%;
+    margin: 60px auto;
+    padding-left: 40px;
+    padding-right: 40px
+}
+
+/*************** HEADER ***************/
+.header {
+    overflow: hidden;
+}
+
+.navigation {
+    float: left;
+}
+
+.logo {
+    font-family: var(--logo-font-family);
+    font-size: 300%;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+.menu {
+    font-size: 150%;
+    margin: 0px;
+    margin-top: 6px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.menu-item:last-child {
+    margin-right: 0px;
+}
+
+.menu-item a {
+    font-weight: 400;
+    font-family: var(--menu-font-family);
+}
+
+.menu-item a:hover,
+.social-links i:hover {
+    color: var(--main-hover-anchor-color);
+}
+
+.social-links {
+    float: right;
+    font-size: 150%;
+    list-style-type: none;
+}
+
+.social-links i {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--main-anchor-color);
+}
+
+/* page title */
+.page-title {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.page-title-text {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.page-title-subtitle {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    color: #828282;
+}
+
+.post-content a:hover,
+.page-content a:hover,
+.toc a:hover {
+    color: var(--main-hover-anchor-color);
+}   
+
+.post-content a {
+    border-bottom: 2px dotted #afafaf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** LOGO ANIMATION ***************/
+.rainbow {
+    background: linear-gradient(to right, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 12s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+
+@keyframes rainbow_animation {
+
+    0%,
+    100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+
+/**************** GLITCH ANIMATION (from http://codepen.io/bulby97/pen/fcvay) ****************/
+.glitch {
+    position: relative;
+    animation: glitch 2s steps(100) infinite;
+}
+
+.glitch p {
+    font-size: 150%;
+}
+
+@keyframes glitch {
+    0% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    1% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    2% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    3% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    4% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    5% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    6% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    7% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    8% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    9% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    10% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    11% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    12% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    13% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    14% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    15% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    16% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    17% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    18% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    19% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    20% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    21% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    22% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    23% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    24% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    25% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    26% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    27% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    28% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    29% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    30% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    31% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    32% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    33% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    34% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    35% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    36% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    37% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    38% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    39% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    40% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    41% {
+        text-shadow: 50px 0 0 blue, -50px 0 0 lime;
+    }
+
+    42% {
+        text-shadow: 0 0 0 blue, 0 0 0 lime;
+    }
+
+    43% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    44% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    45% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    46% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    47% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    48% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    49% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    50% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    51% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    52% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    53% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    54% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    55% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    56% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    57% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    58% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    59% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    60% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    61% {
+        text-shadow: 30px 0 0 red, -30px 0 0 lime;
+    }
+
+    62% {
+        text-shadow: 0 0 0 red, 0 0 0 lime;
+    }
+
+    63% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+
+    64% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+
+    65% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+
+    66% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+
+    67% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    68% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    69% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    70% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    71% {
+        text-shadow: 70px 0 0 red, -70px 0 0 blue;
+    }
+
+    72% {
+        text-shadow: 0 0 0 red, 0 0 0 blue;
+    }
+
+    73% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    74% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    75% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    76% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    77% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    78% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    79% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    80% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    81% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    82% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    83% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    84% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    85% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    86% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    87% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    88% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    89% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    90% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    91% {
+        text-shadow: 60px 0 0 lime, -60px 0 0 blue;
+    }
+
+    92% {
+        text-shadow: 0 0 0 lime, 0 0 0 blue;
+    }
+
+    92% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    93% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    94% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    95% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    96% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    97% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    98% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    99% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    100% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+}

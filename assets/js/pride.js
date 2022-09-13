@@ -1,13 +1,42 @@
-let jsConfetti = new JSConfetti()
+const jsConfetti = new JSConfetti()
 let r = document.querySelector(':root');
 let s = "";
 
-window.onload = () => {
-    if (sessionStorage.getItem('--main-bold-color')) {
-        r.style.setProperty('--main-bold-color', sessionStorage.getItem('--main-bold-color'));
-        r.style.setProperty('--main-anchor-color', sessionStorage.getItem('--main-anchor-color'));
-        r.style.setProperty('--hover-anchor-color', sessionStorage.getItem('--hover-anchor-color'));
-    }
+/* 
+0 - confettiEmojis
+1 - confettiColors
+2 - emphasis
+3 - anchor
+4 - hover
+*/
+
+_ = [[], [], '#ddd', '#fff', '#ffffff80'];
+transgender = [['🏳️‍🌈', '🏳️‍⚧️'], ['#55CDFD', '#FFFFFF', '#F6AAB7'], '#55CDFD', '#F6AAB7', '#F6AAB7c7',];
+nonbinary = [['🏳️‍🌈', '💛', '🤍', '💜', '🖤'], ['#FCF431', '#9D59D2', '#ffffff', '#2C2C2C'], '#FCF431', '#9D59D2', '#9D59D2c7',];
+asexual = [['🏳️‍🌈', '💜', '🖤', '🤍', ], ['#A3A3A3', '#800080', '#000000', '#FFFFFF' ], '#A3A3A3', '#800080', '#800080c7',];
+bisexual = [['🏳️‍🌈', '🌈', '💙', '💜', '💓'], ['#D60270', '#9B4F96', '#0038A8'], '#004FFF', '#D70071', '#9C4E97',];
+pansexual = [['🏳️‍🌈', '💗', '💛', '💙'], ['#FF218C', '#FFD800', '#21B1FF'], '', '', '',];
+lgbt = [['🏳️‍🌈', '🌈'], ['#E40303', '#FF8C00', '#FFED00', '#008026', '#24408E', '#732982'], '', '', '',];
+
+function cSet(x) {
+    jsConfetti.addConfetti({emojis: x[0]});
+    jsConfetti.addConfetti({confettiColors: x[1]});
+}
+
+function rSet(x) {
+    r.style.setProperty('--main-emphasis-color', x[2])
+    r.style.setProperty('--main-anchor-color', x[3])
+    r.style.setProperty('--main-hover-anchor-color', x[4])
+}
+
+function sSet(x) {
+    sessionStorage.setItem('--main-emphasis-color', x[2])
+    sessionStorage.setItem('--main-anchor-color', x[3])
+    sessionStorage.setItem('--main-hover-anchor-color', x[4])
+}
+
+function allSet(x) {
+    cSet(x); rSet(x); sSet(x);
 }
 
 document.addEventListener("keypress", function (event) {
@@ -17,94 +46,26 @@ document.addEventListener("keypress", function (event) {
     s += charStr;
 
     if (s.includes('transgender')) {
-        r.style.setProperty('--main-bold-color', '#5bcefa');
-        r.style.setProperty('--main-anchor-color', '#f5a9b8');
-        r.style.setProperty('--hover-anchor-color', '#f5a9b8c7');
-        sessionStorage.setItem('--main-bold-color', '#5bcefa');
-        sessionStorage.setItem('--main-anchor-color', '#f5a9b8');
-        sessionStorage.setItem('--hover-anchor-color', '#f5a9b8c7');
-        s = ""
-
-        jsConfetti.addConfetti({
-            emojis: [
-                '🏳️‍🌈', '🏳️‍⚧️'
-            ]
-        });
-        jsConfetti.addConfetti({
-            confettiColors: [
-                '#5bcefa', '#ffffff', '#f5a9b8'
-            ],
-        })
-
+        allSet(transgender); s = "";
     } else if (s.includes('nonbinary')) {
-        r.style.setProperty('--main-bold-color', '#fcf434');
-        r.style.setProperty('--main-anchor-color', '#9c59d1');
-        r.style.setProperty('--hover-anchor-color', '#9c59d1c7');
-        sessionStorage.setItem('--main-bold-color', '#fcf434');
-        sessionStorage.setItem('--main-anchor-color', '#9c59d1');
-        sessionStorage.setItem('--hover-anchor-color', '#9c59d1c7');
-        s = ""
-
-        jsConfetti.addConfetti({
-            emojis: [
-                '🏳️‍🌈', '💛', '🤍', '💜', '🖤'
-            ]
-        });
-        jsConfetti.addConfetti({
-            confettiColors: [
-                '#fcf434', '#9c59d1', '#ffffff', '#2c2c2c'
-            ],
-        })
+        allSet(nonbinary); s = "";
     } else if (s.includes('asexual')) {
-        r.style.setProperty('--main-bold-color', '#a3a3a3');
-        r.style.setProperty('--main-anchor-color', '#800080');
-        r.style.setProperty('--hover-anchor-color', '#800080c7');
-        sessionStorage.setItem('--main-bold-color', '#a3a3a3');
-        sessionStorage.setItem('--main-anchor-color', '#800080');
-        sessionStorage.setItem('--hover-anchor-color', '#800080c7');
-        s = ""
-
-        jsConfetti.addConfetti({
-            emojis: [
-                '🏳️‍🌈', '💜', '🖤', '🤍', 
-            ]
-        });
-        jsConfetti.addConfetti({
-            confettiColors: [
-                '#a3a3a3', '#800080', '#000000', '#ffffff' 
-            ],
-        })
+        allSet(asexual); s = "";
     } else if (s.includes('bisexual')) {
-        s = ""
-        jsConfetti.addConfetti({
-            emojis: [
-                '🏳️‍🌈', '🌈', '💙', '💜', '💓'
-            ]
-        }); 
-        jsConfetti.addConfetti({
-            confettiColors: [
-                '#D60270', '#9B4F96', '#0038A8'
-            ],
-        })
+        allSet(bisexual); s = "";
+    } else if (s.includes('pansexual')) {
+        cSet(pansexual); s = "";
     } else if (s.includes('lgbt') || s.includes('pride')) {
-        s = ""
-        jsConfetti.addConfetti({
-            emojis: [
-                '🏳️‍🌈', '🌈'
-            ]
-        }); 
-        jsConfetti.addConfetti({
-            confettiColors: [
-                '#E40303', '#FF8C00', '#FFED00', '#008026', '#24408E', '#732982'
-            ],
-        })
+        cSet(lgbt); s = "";
     } else if (s.includes('reset')) {
-        r.style.setProperty('--main-bold-color', '#ffbb00');
-        r.style.setProperty('--main-anchor-color', '#ef233c');
-        r.style.setProperty('--hover-anchor-color', '#ef233cc7');
-        sessionStorage.removeItem('--main-bold-color');
-        sessionStorage.removeItem('--main-anchor-color');
-        sessionStorage.removeItem('--hover-anchor-color');
-        s = ""
+        rSet(_); sSet(_); s = "";
     }
 })
+
+window.onload = () => {
+    if (sessionStorage.getItem('--main-emphasis-color')) {
+        r.style.setProperty('--main-emphasis-color', sessionStorage.getItem('--main-emphasis-color'));
+        r.style.setProperty('--main-anchor-color', sessionStorage.getItem('--main-anchor-color'));
+        r.style.setProperty('--main-hover-anchor-color', sessionStorage.getItem('--main-hover-anchor-color'));
+    }
+}
