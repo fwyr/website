@@ -4,7 +4,7 @@ description: >
   there's something here.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://www.ablipintime.co" # the base hostname & protocol for your site
+url: "https://main.ablipintime.co" # the base hostname & protocol for your site
 
 author:
   fullname: fwy
