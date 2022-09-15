@@ -10,13 +10,15 @@ let s = "";
 4 - hover
 */
 
-_ = [[], [], '#ddd', '#fff', '#ffffff80'];
-transgender = [['🏳️‍🌈', '🏳️‍⚧️'], ['#55CDFD', '#FFFFFF', '#F6AAB7'], '#55CDFD', '#F6AAB7', '#F6AAB7c7',];
-nonbinary = [['🏳️‍🌈', '💛', '🤍', '💜', '🖤'], ['#FCF431', '#9D59D2', '#ffffff', '#2C2C2C'], '#FCF431', '#9D59D2', '#9D59D2c7',];
-asexual = [['🏳️‍🌈', '💜', '🖤', '🤍', ], ['#A3A3A3', '#800080', '#000000', '#FFFFFF' ], '#A3A3A3', '#800080', '#800080c7',];
-bisexual = [['🏳️‍🌈', '🌈', '💙', '💜', '💓'], ['#D60270', '#9B4F96', '#0038A8'], '#004FFF', '#D70071', '#9C4E97',];
-pansexual = [['🏳️‍🌈', '💗', '💛', '💙'], ['#FF218C', '#FFD800', '#21B1FF'], '', '', '',];
-lgbt = [['🏳️‍🌈', '🌈'], ['#E40303', '#FF8C00', '#FFED00', '#008026', '#24408E', '#732982'], '', '', '',];
+_ = ["", [], '#ddd', '#fff', '#ffffff80'];
+transgender = [['🏳️‍🌈', '🏳️‍⚧️', '💎', '💗', '🤍'], ['#55CDFD', '#FFFFFF', '#F6AAB7'], '#55CDFD', '#F6AAB7', '#F6AAB7c7',];
+nonbinary = [['🏳️‍🌈','💛','🤍','💜','🖤'], ['#FCF431', '#9D59D2', '#ffffff', '#2C2C2C'], '#FCF431', '#9D59D2', '#9D59D2c7',];
+asexual = [['🏳️‍🌈','💜','🖤','🤍'], , ['#A3A3A3', '#800080', '#000000', '#FFFFFF' ], '#A3A3A3', '#800080', '#800080c7',];
+bisexual = [['🏳️‍🌈','🌈','💙','💜','💓'], ['#D60270', '#9B4F96', '#0038A8'], '#004FFF', '#D70071', '#9C4E97',];
+pansexual = [['🏳️‍🌈','💗','💛','💙'], ['#FF218C', '#FFD800', '#21B1FF'], '#FFD800', '#FF218C', '#21B1FF',];
+lesbian = [['💗','🧡','🤍','💖','💗'], [], '', '', '']
+genderfluid = [['💖','🤍','💜','🖤','💙','🏳️‍🌈'], ['#FF76A4', '#FFFFFF', '#C011D7', '#000000', '#2F3CBE'], '', '', '']
+lgbt = [['🏳️‍🌈','🌈'], ['#E40303', '#FF8C00', '#FFED00', '#008026', '#24408E', '#732982'], '', '', '',];
 
 function cSet(x) {
     jsConfetti.addConfetti({emojis: x[0]});
@@ -45,7 +47,11 @@ document.addEventListener("keypress", function (event) {
     var charStr = String.fromCharCode(charCode);
     s += charStr;
 
-    if (s.includes('transgender')) {
+    if (s.includes('reset')) {
+        rSet(_); sSet(_); s = "";
+    } else if (s.includes('lgbt') || s.includes('pride')) {
+        cSet(lgbt); s = "";
+    } else if (s.includes('transgender')) {
         allSet(transgender); s = "";
     } else if (s.includes('nonbinary')) {
         allSet(nonbinary); s = "";
@@ -54,11 +60,11 @@ document.addEventListener("keypress", function (event) {
     } else if (s.includes('bisexual')) {
         allSet(bisexual); s = "";
     } else if (s.includes('pansexual')) {
-        cSet(pansexual); s = "";
-    } else if (s.includes('lgbt') || s.includes('pride')) {
-        cSet(lgbt); s = "";
-    } else if (s.includes('reset')) {
-        rSet(_); sSet(_); s = "";
+        allSet(pansexual); s = "";
+    } else if (s.includes('lesbian')) {
+        cSet(lesbian); s = "";
+    } else if (s.includes('genderfluid')) {
+        cSet(genderfluid); s = '';
     }
 })
 
