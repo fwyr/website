@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 :root {
     --main-text-color: #ccc;
@@ -9,11 +10,13 @@
     --main-emphasis-color: #fff;
     --main-anchor-color: #fff;
     --main-hover-anchor-color: #ffffff80;
+    --main-border-color: #aaa;
     --body-font-family: 'Comfortaa', sans-serif;
     --logo-font-family: 'Poppins', sans-serif;
     --menu-font-family: 'Poppins', sans-serif;
     --title-font-family: 'Poppins', sans-serif;
     --main-background-color: #111111;
+    --abstract-background-color: #222;
 }
 
 body {
@@ -34,7 +37,6 @@ h3,
 h4 {
     color: var(--main-title-color);
     font-family: var(--title-font-family);
-    font-size: 150%;
 }
 
 p,
@@ -149,7 +151,66 @@ i {
 }
 
 
+/* post teasin' */
+.list-posts {
+    list-style-type: none;
+    padding: 0px;
+}
 
+.post-teaser {
+    margin-bottom: 15px;
+    font-weight: 700;   
+}
+
+.post-teaser-title {
+    font-size: 100%;
+}
+
+.post-teaser-date {
+    font-size: 100%;
+    float: right;
+    vertical-align: middle;
+}
+
+/* table of contents */
+
+.toc {
+    border: 1px solid var(--main-border-color);
+    background-color: var(--abstract-background-color);
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 300px;
+    padding-right: 2em;
+    margin: 0 2rem 1.5rem 0;
+    float: left;
+}
+
+.toc::before {
+    font-weight: bold;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding-left: 1em;
+    counter-reset: item;
+}
+
+.toc li::before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
+
+.toc-h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.toc-h2 {
+    font-size: 18px;
+}
+
+.toc-h3 {
+    font-size: 16px;
+}
 
 
 
