@@ -9,7 +9,7 @@ toc: false
 <div>
 {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
-<h4 class="post-teaser__month">
+<h4 class="post-teaser-topic">
 <strong>
 {% if category.name %} 
 ~  &nbsp;  {{ category.name }} &nbsp;  ~
@@ -22,8 +22,8 @@ toc: false
 {% for post in category.items %}
 <li class="post-teaser">
 <a href="{{ post.url | prepend: site.baseurl }}">
-<span class="post-teaser__title">{{ post.title }}</span>
-<span class="post-teaser__date">{{ post.date | date: "%d %b %Y" }}</span>
+<span class="post-teaser-title">{{ post.title }}</span>
+<span class="post-teaser-date">{{ post.date | date: "%d %b %Y" }}</span>
 </a>
 </li>
 {% endfor %}
