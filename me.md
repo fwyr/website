@@ -24,7 +24,7 @@ headtitle: a blip in time - about
 
 **cogs?** [git](https://git-scm.org/), [node](https://nodejs.org/en/), [flask](https://flask.palletsprojects.com/en/2.2.x/), [jekyll](https://jekyllrb.com/), [tensorflow](https://www.tensorflow.org/), [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/).
 
-**tools?** [iterm2](https://iterm2.com/), [vscodium](https://vscodium.com/), [colab](https://colab.research.google.com/), [replit](https://replit.com/), [github](https://github.com/), [obsidian](https://obsidian.md/), [firefox](https://www.mozilla.org/en-US/firefox/developer/).
+**tools?** [iterm2](https://iterm2.com/), [vscodium](https://vscodium.com/), [colab](https://colab.research.google.com/), [replit](https://replit.com/), [github](https://github.com/), [obsidian](https://obsidian.md/), [firefox](https://www.mozilla.org/en-US/firefox/developer/)/[librewolf](https://librewolf.net/).
 
 **other stuff?** piano and music theory.
 <hr>
