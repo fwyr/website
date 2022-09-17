@@ -1,827 +1,728 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-/*************** VARIABLES ***************/
 :root {
-  --main-font-family: 'Quicksand', sans-serif;
-  --main-text-color: #ccc;
-  --main-background-color: #111111;
-  --main-bold-color: #ffbb00;
-  --main-anchor-color: #ef233c;
-  --main-border-color: #aaa;
-  --hover-anchor-color: #ef233bc7;
-  --toc-anchor-color: #e2e2e2;
-  --toc-hover-anchor-color: #fff;
-  --toc-background-color: #222;
+    --main-text-color: #ccc;
+    --main-title-color: #eee;
+    --main-emphasis-color: #fff;
+    --main-anchor-color: #fff;
+    --main-hover-anchor-color: #ffffff80;
+    --main-border-color: #aaa;
+    --body-font-family: 'Comfortaa', sans-serif;
+    --logo-font-family: 'Poppins', sans-serif;
+    --menu-font-family: 'Poppins', sans-serif;
+    --title-font-family: 'Poppins', sans-serif;
+    --main-background-color: #111111;
+    --abstract-background-color: #222;
 }
 
-/*************** BASE ***************/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-  font-family: var(--main-font-family);
-  font-size: 100%;
-  color: var(--main-text-color);
-  background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+    font-family: var(--body-font-family);
 }
 
-a {
-  color: var(--main-anchor-color);
-  font-weight: bold;
-  text-decoration: none;
+article {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--main-title-color);
+    font-family: var(--title-font-family);
 }
 
 p,
 ul,
 ol,
-dl {
-  font-size: 20px;
-  line-height: 32px;
-  color: var(--main-text-color);
+li {
+    font-size: 120%;
+    line-height: 1.6;
 }
 
-img {
-  display: block;
-  max-width: 100%;
+a {
+    text-decoration: none;
+    color: var(--main-anchor-color);
+    transition: color 0.2s ease;
 }
 
-blockquote {
-  margin: 0px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding: 0px;
-  text-align: center;
-  position: relative;
+strong,
+b,
+em,
+i {
+    color: var(--main-emphasis-color);
 }
-
-blockquote footer {
-  position: absolute;
-  bottom: -35px;
-  font-size: 80%;
-  color: #333333;
-  letter-spacing: 0px;
-  left: 0px;
-  right: 0px;
-}
-
-blockquote p {
-  display: inline;
-  font-size: 120%;
-  color: #828282;
-  font-weight: 400;
-}
-
-strong {
-  color: var(--main-bold-color);
-}
-
-h1 {
-  font-size: 2em;
-  margin: 1.75em 0 0.375em 0;
-  box-shadow: 0 -1px 0 0 #444 inset, 0 -2px 0 0 #444 inset;
-}
-
-h2 {
-  font-size: 1.6em;
-}
-
-h3 {
-  font-size: 1.45em;
-}
-
-h4 {
-  font-size: 1.25em;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td,
-th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: var(--main-background-color);
-}
-
-tr:hover {
-  background-color: #333333;
-}
-
-th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-}
-
 
 .wrapper {
-  max-width: 800px;
-  margin: 60px auto;
-  padding-left: 40px;
-  padding-right: 40px
+    max-width: 70%;
+    margin: 60px auto;
+    padding-left: 40px;
+    padding-right: 40px
 }
 
 /*************** HEADER ***************/
 .header {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .navigation {
-  float: left;
+    float: left;
 }
 
 .logo {
-  font-size: 300%;
-  font-weight: 700;
-  display: block;
+    font-family: var(--logo-font-family);
+    font-size: 300%;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1.5px;
 }
 
 .menu {
-  color: #828282;
-  font-size: 150%;
-  margin: 0px;
-  margin-top: 6px;
-  padding: 0px;
-  list-style-type: none;
+    font-size: 150%;
+    margin: 0px;
+    margin-top: 6px;
+    padding: 0px;
+    list-style-type: none;
 }
 
-.menu__entry {
-  display: inline-block;
-  margin-right: 35px;
+.menu-item {
+    display: inline-block;
+    margin-right: 35px;
 }
 
-.menu__entry:last-child {
-  margin-right: 0px;
+.menu-item:last-child {
+    margin-right: 0px;
 }
 
-.menu__entry a {
-  font-weight: 400;
+.menu-item a {
+    font-weight: 400;
+    font-family: var(--menu-font-family);
 }
 
-.menu__entry a:hover {
-  color: var(--hover-anchor-color);
+.menu-item a:hover,
+.social-links i:hover {
+    color: var(--main-hover-anchor-color);
 }
 
 .social-links {
-  float: right;
-  font-size: 150%;
-  list-style-type: none;
+    float: right;
+    font-size: 150%;
+    list-style-type: none;
 }
 
-.social-links__entry {
-  display: inline-block;
-  margin-left: 10px;
+.social-links i {
+    display: inline-block;
+    margin-left: 10px;
+    color: var(--main-anchor-color);
 }
 
-.social-links a:hover {
-  color: var(--hover-anchor-color);
-}
-
-
-/*************** MAIN ***************/
-.main a:hover {
-  color: var(--hover-anchor-color);
-}
-
-/*************** TITLE ***************/
+/* page title */
 .page-title {
-  margin: 30px auto;
-  text-align: center;
+    margin: 30px auto;
+    text-align: center;
 }
 
-.page-title__text {
-  font-weight: 700;
-  font-size: 1.5em;
+.page-title-text {
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
-.page-title__subtitle {
-  font-weight: 400;
-  font-size: 1em;
-  color: #828282;
+.page-title-subtitle {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    color: #828282;
 }
 
-/*************** POST TEASERS ***************/
+.post-content a:hover,
+.page-content a:hover,
+.toc a:hover {
+    color: var(--main-hover-anchor-color);
+}
+
+.post-content a {
+    border-bottom: 2px dotted #afafaf;
+}
+
+
+/* post teasin' */
 .list-posts {
-  list-style-type: none;
-  padding: 0px;
+    list-style-type: none;
+    padding: 0px;
 }
 
 .post-teaser {
-  margin-bottom: 15px;
-  font-weight: 700;
+    margin-bottom: 15px;
+    font-weight: 700;
 }
 
-.post-teaser__title {
-  font-size: 100%;
-  color: #edf2f4;
+.post-teaser-title {
+    font-size: 90%;
 }
 
-.post-teaser__date {
-  font-size: 100%;
-  float: right;
-  vertical-align: middle;
-  color: #edf2f4;
+.post-teaser-date {
+    font-size: 90%;
+    float: right;
+    vertical-align: middle;
 }
 
-.post-teaser__month {
-  width: 100%;
-  text-align: center;
-}
+/* table of contents */
 
-.empty-post-list {
-  font-size: 150%;
-  font-weight: 700;
-  color: #333333;
-  text-align: center;
-}
-
-/*************** TABLE OF CONTENTS ***************/
 .toc {
-  border: 1px solid var(--main-border-color);
-  margin: 0 2rem 1.5rem 0;
-  max-width: 285px;
-  padding-right: 2em;
-  float: left;
-  background-color: var(--toc-background-color);
-  overflow-wrap: break-word;
+    border: 1px solid var(--main-border-color);
+    background-color: var(--abstract-background-color);
+    font-family: 'Source Sans Pro', sans-serif;
+    max-width: 300px;
+    padding-right: 2em;
+    margin: 0 2rem 1.5rem 0;
+    float: left;
 }
 
 .toc::before {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .toc ul {
-  list-style-type: none;
-  counter-reset: item;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  padding-left: 0.5em;
+    list-style-type: none;
+    padding-left: 1em;
+    counter-reset: item;
 }
 
-.toc li {
-  border: 0;
-  position: relative;
+.toc li::before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
 }
 
-.toc li:before {
-  content: counters(item, ".") " ";
-  counter-increment: item
+.toc-h1 {
+    font-size: 20px;
+    font-weight: 900;
 }
 
-.toc a {
-  display: inline-block;
-  padding-right: 1.0em;
-  color: var(--toc-anchor-color);
+.toc-h2 {
+    font-size: 18px;
 }
 
-.toc a:hover {
-  color: var(--toc-hover-anchor-color);
-  background-color: #363636;
+.toc-h3 {
+    font-size: 16px;
 }
 
-/*************** ABSTRACT ***************/
+
+/* abstract */
 .abstract {
-  margin: 0 0 1.5em 0;
-  background-color: var(--toc-background-color);
-  border: 1px solid var(--main-border-color);
-  padding: 0.9rem 1.25rem 0.95rem 1.25rem;
-  overflow: hidden;
+    border: 1px solid var(--main-border-color);
+    background-color: var(--abstract-background-color);
+    padding: 0.9rem 1.25rem 0.95rem 1.25rem;
+    margin: 0 0 1.5rem 0;
+    overflow: hidden;
 }
 
-/*************** MAIN CONTENT ***************/
-.post .content a {
-  border-bottom: 1px dotted #999
-}
-
-/*************** FOOTER ***************/
-.footer {
-  color: #828282;
-  text-align: center;
-  line-height: 24px;
-}
-
-.footer-divider {
-  font-size: 100%;
-  letter-spacing: 9.09px;
-}
-
-.footer-text {
-  font-size: 100%;
-}
-
-/* Main Page */
-#about-img {
-  border-radius: 13%;
-  max-width: 125px;
-  margin: auto;
-  margin-bottom: 3%;
-}
-
-#describe-text {
-  display: block;
-  text-align: center;
-  width: 100%;
-}
-
-/*************** MEDIA QUERIES (FOR SMALL SCREENS) ***************/
+/*************** MEDIA QUERIES (FOR SMALL SCREENS) **************/
 @media (max-width: 500px) {
+    p,
+    ul,
+    ol,
+    dl {
+        font-size: 100%;
+        line-height: 1.6;
+    }
 
-  p,
-  ul,
-  ol,
-  dl {
-    font-size: 100%;
-    line-height: 1.6;
-  }
+    .wrapper {
+        width: 90%;
+        margin: 15px auto;
+    }
 
-  .wrapper {
-    width: 90%;
-    margin: 15px auto;
-  }
+    .navigation,
+    .social-links {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
 
-  .navigation,
-  .social-links {
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
+    .social-links {
+        font-size: 200%;
+        margin: 10px auto;
+    }
 
-  .social-links {
-    font-size: 200%;
-    margin: 10px auto;
-  }
+    .page-title {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
 
-  .page-title {
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
+    .page-title__text {
+        font-size: 150%;
+    }
 
-  .page-title__text {
-    font-size: 150%;
-  }
+    .page-title__subtitle {
+        font-size: 65%;
+    }
 
-  .page-title__subtitle {
-    font-size: 65%;
-  }
+    .post-teaser__title {
+        font-size: 150%;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
 
-  .post-teaser__title {
-    font-size: 150%;
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
-
-  .post-teaser__date {
-    font-size: 100%;
-    margin-top: 10px;
-    float: none;
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
+    .post-teaser__date {
+        font-size: 100%;
+        margin-top: 10px;
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 /*************** LOGO ANIMATION ***************/
 .rainbow {
-  background: linear-gradient(to right, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d, #ff0018, #ffa52c, #ffff41);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: rainbow_animation 6s ease-in-out infinite;
-  background-size: 400% 100%;
+    background: linear-gradient(to right, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 12s ease-in-out infinite;
+    background-size: 400% 100%;
 }
+
 
 @keyframes rainbow_animation {
 
-  0%,
-  100% {
-    background-position: 0 0;
-  }
+    0%,
+    100% {
+        background-position: 0 0;
+    }
 
-  50% {
-    background-position: 100% 0;
-  }
+    50% {
+        background-position: 100% 0;
+    }
 }
 
 /**************** GLITCH ANIMATION (from http://codepen.io/bulby97/pen/fcvay) ****************/
 .glitch {
-  position: relative;
-  animation: glitch 2s steps(100) infinite;
+    position: relative;
+    animation: glitch 2s steps(100) infinite;
+}
+
+.glitch p {
+    font-size: 150%;
 }
 
 @keyframes glitch {
-  0% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  1% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  2% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  3% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  4% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  5% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  6% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  7% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  8% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  9% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  10% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  11% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  12% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  13% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  14% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  15% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  16% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  17% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  18% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  19% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  20% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  21% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  22% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  23% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  24% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  25% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  26% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  27% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  28% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  29% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  30% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  31% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  32% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  33% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  34% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  35% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  36% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  37% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  38% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  39% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  40% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  41% {
-    text-shadow: 50px 0 0 blue, -50px 0 0 lime;
-  }
-
-  42% {
-    text-shadow: 0 0 0 blue, 0 0 0 lime;
-  }
-
-  43% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  44% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  45% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  46% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  47% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  48% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  49% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  50% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  51% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  52% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  53% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  54% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  55% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  56% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  57% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  58% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  59% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  60% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  61% {
-    text-shadow: 30px 0 0 red, -30px 0 0 lime;
-  }
-
-  62% {
-    text-shadow: 0 0 0 red, 0 0 0 lime;
-  }
-
-  63% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
-  }
-
-  64% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
-  }
-
-  65% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
-  }
-
-  66% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
-  }
-
-  67% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  68% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  69% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  70% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  71% {
-    text-shadow: 70px 0 0 red, -70px 0 0 blue;
-  }
-
-  72% {
-    text-shadow: 0 0 0 red, 0 0 0 blue;
-  }
-
-  73% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  74% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  75% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  76% {
-    text-shadow: 1px 0 0 red, -1px 0 0 blue;
-  }
-
-  77% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  78% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  79% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  80% {
-    text-shadow: -1px 0 0 red, 1px 0 0 blue;
-  }
-
-  81% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  82% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  83% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  84% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  85% {
-    text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-  }
-
-  86% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  87% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  88% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  89% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  90% {
-    text-shadow: -1px 0 0 red, 1px 0 0 lime;
-  }
-
-  91% {
-    text-shadow: 60px 0 0 lime, -60px 0 0 blue;
-  }
-
-  92% {
-    text-shadow: 0 0 0 lime, 0 0 0 blue;
-  }
-
-  92% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  93% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  94% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  95% {
-    text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-  }
-
-  96% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  97% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  98% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  99% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-
-  100% {
-    text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-  }
-}
-
-.go-home {
-  text-align: center;
+    0% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    1% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    2% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    3% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    4% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    5% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    6% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    7% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    8% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    9% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    10% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    11% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    12% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    13% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    14% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    15% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    16% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    17% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    18% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    19% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    20% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    21% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    22% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    23% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    24% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    25% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    26% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    27% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    28% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    29% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    30% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    31% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    32% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    33% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    34% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    35% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    36% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    37% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    38% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    39% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    40% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    41% {
+        text-shadow: 50px 0 0 blue, -50px 0 0 lime;
+    }
+
+    42% {
+        text-shadow: 0 0 0 blue, 0 0 0 lime;
+    }
+
+    43% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    44% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    45% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    46% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    47% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    48% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    49% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    50% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    51% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    52% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    53% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    54% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    55% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    56% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    57% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    58% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    59% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    60% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    61% {
+        text-shadow: 30px 0 0 red, -30px 0 0 lime;
+    }
+
+    62% {
+        text-shadow: 0 0 0 red, 0 0 0 lime;
+    }
+
+    63% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+
+    64% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+
+    65% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+
+    66% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
+    }
+
+    67% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    68% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    69% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    70% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    71% {
+        text-shadow: 70px 0 0 red, -70px 0 0 blue;
+    }
+
+    72% {
+        text-shadow: 0 0 0 red, 0 0 0 blue;
+    }
+
+    73% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    74% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    75% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    76% {
+        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+    }
+
+    77% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    78% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    79% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    80% {
+        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+    }
+
+    81% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    82% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    83% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    84% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    85% {
+        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+    }
+
+    86% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    87% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    88% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    89% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    90% {
+        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+    }
+
+    91% {
+        text-shadow: 60px 0 0 lime, -60px 0 0 blue;
+    }
+
+    92% {
+        text-shadow: 0 0 0 lime, 0 0 0 blue;
+    }
+
+    92% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    93% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    94% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    95% {
+        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
+    }
+
+    96% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    97% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    98% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    99% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
+
+    100% {
+        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+    }
 }

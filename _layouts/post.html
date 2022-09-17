@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<main class="main post">
+<main class="main">
     {% include page/title.html %}
     <article>
         {% if page.toc %}
@@ -9,11 +9,8 @@ layout: default
             {% toc %}
         </div>
         {% endif %}
-        <div class="content">
+        <div class="post-content">
             {{ content }}
         </div>
     </article>
 </main>
-<footer class="footer">
-    {% include page/footer.html %}
-</footer>
