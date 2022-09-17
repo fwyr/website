@@ -9,7 +9,7 @@ toc: false
 <div>
 {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
-<h4 class="post-teaser-topic">
+<h2 class="post-teaser-topic">
 <strong>
 {% if category.name %} 
 ~  &nbsp;  {{ category.name }} &nbsp;  ~
@@ -17,7 +17,7 @@ toc: false
 {{ Print }} 
 {% endif %}
 </strong>
-</h4>
+</h2>
 <ul class="list-posts">
 {% for post in category.items %}
 <li class="post-teaser">
