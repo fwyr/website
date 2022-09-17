@@ -19,6 +19,10 @@
     --abstract-background-color: #222;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--main-text-color);
     background-color: var(--main-background-color);
@@ -26,7 +30,7 @@ body {
 }
 
 article {
-    max-width: 80%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,13 +47,14 @@ p,
 ul,
 ol,
 li {
-    font-size: 110%;
-    line-height: 1.5;
+    font-size: 120%;
+    line-height: 1.6;
 }
 
 a {
     text-decoration: none;
     color: var(--main-anchor-color);
+    transition: color 0.2s ease;
 }
 
 strong,
@@ -144,7 +149,7 @@ i {
 .page-content a:hover,
 .toc a:hover {
     color: var(--main-hover-anchor-color);
-}   
+}
 
 .post-content a {
     border-bottom: 2px dotted #afafaf;
@@ -159,15 +164,15 @@ i {
 
 .post-teaser {
     margin-bottom: 15px;
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 .post-teaser-title {
-    font-size: 100%;
+    font-size: 90%;
 }
 
 .post-teaser-date {
-    font-size: 100%;
+    font-size: 90%;
     float: right;
     vertical-align: middle;
 }
@@ -213,13 +218,71 @@ i {
 }
 
 
+/* abstract */
+.abstract {
+    border: 1px solid var(--main-border-color);
+    background-color: var(--abstract-background-color);
+    padding: 0.9rem 1.25rem 0.95rem 1.25rem;
+    margin: 0 0 1.5rem 0;
+    overflow: hidden;
+}
 
+/*************** MEDIA QUERIES (FOR SMALL SCREENS) **************/
+@media (max-width: 500px) {
+    p,
+    ul,
+    ol,
+    dl {
+        font-size: 100%;
+        line-height: 1.6;
+    }
 
+    .wrapper {
+        width: 90%;
+        margin: 15px auto;
+    }
 
+    .navigation,
+    .social-links {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
 
+    .social-links {
+        font-size: 200%;
+        margin: 10px auto;
+    }
 
+    .page-title {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
 
+    .page-title__text {
+        font-size: 150%;
+    }
 
+    .page-title__subtitle {
+        font-size: 65%;
+    }
+
+    .post-teaser__title {
+        font-size: 150%;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .post-teaser__date {
+        font-size: 100%;
+        margin-top: 10px;
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
 
 /*************** LOGO ANIMATION ***************/
 .rainbow {
@@ -243,7 +306,6 @@ i {
         background-position: 100% 0;
     }
 }
-
 
 /**************** GLITCH ANIMATION (from http://codepen.io/bulby97/pen/fcvay) ****************/
 .glitch {
