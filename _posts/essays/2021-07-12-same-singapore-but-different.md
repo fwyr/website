@@ -8,7 +8,7 @@ toc: true
 ---
 
 {: .abstract}
-This essay was **shortlisted** in the [SG75 Our Singapore Competition 2021](https://sg75.sg/archive/competition-themes/about-our-sg75-competition-2021-edition"). It talks about the various challenges that Singapore has faced within the past few months, as well as a few personal insights as to how the country of Singapore can thrive under such circumstances.
+This essay was **shortlisted** in the [SG75 Our Singapore Competition 2021](https://sg75.sg/archive/competition-themes/about-our-sg75-competition-2021-edition). It talks about the various challenges that Singapore has faced within the past few months, as well as a few personal insights as to how the country of Singapore can thrive under such circumstances.
 
 # Topic
 **Sustainability: Building Resilience and Inclusiveness in Fighting COVID-19**
