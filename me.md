@@ -12,7 +12,7 @@ headtitle: a blip in time - about
 
 **pronouns?** anything goes.
 
-**interests?** math, typography, cats, literature, physics.
+**interests?** math, music, cats, literature, physics.
 
 **machine?** [13-inch macbook air 2020](https://support.apple.com/kb/SP813?locale=en_US).
 <hr>
@@ -30,7 +30,11 @@ headtitle: a blip in time - about
 <hr>
 
 ## projects
-still a work in progress.
+
+### 2022
+**[REALISER](https://www.github.com/fwyr/REALISER/)**. An AI-powered misinformation-detecting browser extension. Finalist of [Splash Awards 2022](https://www.scs.org.sg/awards/splash/2022/). Prototype, archived.
+
+
 <hr>
 
 ## education

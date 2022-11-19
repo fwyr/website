@@ -160,7 +160,7 @@ i {
 .post-content a:hover,
 .page-content a:hover,
 .toc a:hover {
-    color: var(--main-hover-anchor-color);
+    color: var(--main-hover-anchor-color) !important;
 }
 
 .post-content a {
@@ -302,6 +302,10 @@ i {
     margin-right: auto;
     text-align: center;
     line-height: 1.6;
+}
+
+.index-div a {
+    border-bottom: 2px dotted #afafaf;
 }
 
 /*************** LOGO ANIMATION ***************/
