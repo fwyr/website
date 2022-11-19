@@ -6,13 +6,13 @@ headtitle: a blip in time - about
 ---
 
 ## 101
-**who?** i'm fwy, a programmer on a planet.
+**who?** i'm fwyr, a programmer on a planet.
 
 **where?** a 728.6km² piece of land in Southeast Asia known as [Singapore](https://en.wikipedia.org/wiki/Singapore).
 
-**pronouns?** [he/she/they/it](https://en.pronouns.page/he&she&they&it).
+**pronouns?** anything goes.
 
-**obsessions?** math, typography, cats, literature, physics.
+**interests?** math, typography, cats, literature, physics.
 
 **machine?** [13-inch macbook air 2020](https://support.apple.com/kb/SP813?locale=en_US).
 <hr>
