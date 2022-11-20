@@ -12,6 +12,6 @@ toc: false
   <br><br>
   in other words, just a planet dweller.
   <br><br>
-  check out <a href="./me">me</a> and <a href="./omnipresence">my thoughts</a>.
+  here's <a href="./me">me</a> and <a href="./omnipresence">my thoughts</a>.
 </div>
 
