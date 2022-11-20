@@ -12,6 +12,10 @@ A monthly (well, technically daily) changelog page for the website that you're o
 
 # 2022
 ## November 2022
+
+**21st.** <br>
+Urgent CNAME changes.
+
 **20th.** <br>
 Added more content to the index page so that it wouldn't be mostly blank. 
 
