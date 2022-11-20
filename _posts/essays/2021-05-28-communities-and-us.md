@@ -9,7 +9,7 @@ toc: true
 
 
 {: .abstract}
-This essay received a **Gold** award in the [Queen's Commonwealth Essay Competition 2021](https://www.royalcwsociety.org/essay-competition). Contains thoughts on leaders, activism, change, and communities.
+This essay received a **Gold** award in the [Queen's Commonwealth Essay Competition 2021](https://www.royalcwsociety.org/essay-competition){:target="_blank"}. Contains thoughts on leaders, activism, change, and communities.
 
 # Topic
 "Discuss the following: 'The greatness of a community is most accurately measured by the compassionate actions of its members.'' – Coretta Scott King".

@@ -8,7 +8,7 @@ toc: true
 ---
 
 {: .abstract}
-This essay received a **Distinction** award in the [LiveOn Festival 2022 Essay Competition](https://www.liveon.gov.sg/festival2022-awards.html). Harbouring progressive perspectives on the future of the medical world, this piece explores the conservative and societal hindrances faced by modern organ donation.
+This essay received a **Distinction** award in the [LiveOn Festival 2022 Essay Competition](https://www.liveon.gov.sg/festival2022-awards.html){:target="_blank"}. Harbouring progressive perspectives on the future of the medical world, this piece explores the conservative and societal hindrances faced by modern organ donation.
 
 # Topic
 Singapore’s conservative culture is the root cause of the country’s low organ donation rates. Discuss.
