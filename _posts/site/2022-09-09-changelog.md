@@ -7,6 +7,9 @@ categories: site
 toc: true
 ---
 
+{: .abstract}
+A monthly (well, technically daily) changelog page for the website that you're on. Comprehensively lists the little journey that this abode has gone through. <br> <br> Changes/additions/fixes/updates are listed chronologically in reverse. Basically, latest updates first, and oldest updates are buried in the mud. Changelog updates with every commit that includes an addition or fix to the website (unless I forget). 
+
 # 2022
 ## November 2022
 **20th.** <br>
