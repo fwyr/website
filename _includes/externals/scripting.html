@@ -1,4 +1,13 @@
 <script src="{{ "/assets/vendor/highlight/highlight.pack.js" | prepend: site.baseurl }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 <script src="{{ site.baseurl }}/assets/js/pride.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/vanilla-tilt.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 0.3
+	});
+</script>
 <script>hljs.initHighlightingOnLoad();</script>

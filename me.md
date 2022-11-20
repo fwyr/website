@@ -32,7 +32,16 @@ headtitle: a blip in time - about
 ## projects
 
 ### 2022
-**[REALISER](https://www.github.com/fwyr/REALISER/)**. An AI-powered misinformation-detecting browser extension. Finalist of [Splash Awards 2022](https://www.scs.org.sg/awards/splash/2022/). Prototype, archived.
+
+<div class="card-container">
+    <div class="card">
+        <div class="content">
+            <h3>REALISER</h3>
+            <p>an AI-powered browser extension that detects fake news. finalist of <a href="https://www.scs.org.sg/awards/splash/2022/">Splash Awards 2022</a>. prototype, archived.</p>
+            <a href="https://github.com/fwyr/REALISER/" class="card-button"><button>more info</button></a>
+        </div>
+    </div>
+</div>
 
 
 <hr>
