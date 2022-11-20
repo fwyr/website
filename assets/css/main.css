@@ -126,6 +126,7 @@ i {
     display: inline-block;
     margin-left: 10px;
     color: var(--main-anchor-color);
+    transition: color 0.2s ease;
 }
 
 .headings {
@@ -328,7 +329,6 @@ i {
     .navigation,
     .social-links {
         display: block;
-        text-align: center;
         width: 100%;
     }
 
