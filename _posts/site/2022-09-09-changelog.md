@@ -15,6 +15,8 @@ A monthly (well, technically daily) changelog page for the website that you're o
 **22nd.** <br>
 Added [Stronger Within](../essays/2022-05-26-stronger-within.md) to works section in me.md.
 
+More updates to easter egg.
+
 **21st.** <br>
 Urgent CNAME changes.
 
