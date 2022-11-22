@@ -2,7 +2,7 @@
 layout: post
 title: "Changelog"
 subtitle: "a 21st-century time machine"
-date:   2022-11-20 00:00:00 +0800
+date:   2022-11-22 00:00:00 +0800
 categories: site
 toc: true
 ---
@@ -12,6 +12,8 @@ A monthly (well, technically daily) changelog page for the website that you're o
 
 # 2022
 ## November 2022
+**22nd.** <br>
+Added [Stronger Within](../essays/2022-05-26-stronger-within.md) to works section in me.md.
 
 **21st.** <br>
 Urgent CNAME changes.

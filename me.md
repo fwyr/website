@@ -29,16 +29,22 @@ headtitle: a blip in time - about
 **other stuff?** piano and music theory.
 <hr>
 
-## projects
-
+## works
 ### 2022
 
 <div class="card-container">
     <div class="card">
         <div class="content">
             <h3>REALISER</h3>
-            <p>an AI-powered browser extension that detects fake news. finalist of <a href="https://www.scs.org.sg/awards/splash/2022/" target="_blank">Splash Awards 2022</a>. prototype, archived.</p>
+            <p>AI-powered browser extension that detects fake news. <br>finalist, <a href="https://www.scs.org.sg/awards/splash/2022/" target="_blank">Splash Awards 2022</a>. prototype, archived.</p>
             <a href="https://github.com/fwyr/REALISER/" class="card-button" target="_blank"><button>more info</button></a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+            <h3>Stronger Within</h3>
+            <p>essay on singaporean conservatism and organ donation. <br> distinction, <a href="https://www.liveon.gov.sg/festival.html" target="_blank">LiveOn Festival 2022</a>.</p>
+            <a href="{{ site.baseurl }}{% link _posts/essays/2022-05-26-stronger-within.md %}" class="card-button"><button>more info</button></a>
         </div>
     </div>
 </div>
