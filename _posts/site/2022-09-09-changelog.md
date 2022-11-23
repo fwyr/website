@@ -2,7 +2,7 @@
 layout: post
 title: "Changelog"
 subtitle: "a 21st-century time machine"
-date:   2022-11-20 00:00:00 +0800
+date:   2022-11-22 00:00:00 +0800
 categories: site
 toc: true
 ---
@@ -12,6 +12,14 @@ A monthly (well, technically daily) changelog page for the website that you're o
 
 # 2022
 ## November 2022
+
+**23rd.** <br>
+Edited typos.
+
+**22nd.** <br>
+Added [Stronger Within](../essays/2022-05-26-stronger-within.md) to works section in me.md.
+
+More updates to easter egg.
 
 **21st.** <br>
 Urgent CNAME changes.
@@ -83,7 +91,7 @@ Updated about.md and internal links to reflect new online persona and accounts.
 
 Did a lot of minor cleaning and polishing. Sometimes you gotta clear the dust and cobwebs off of your repositories.
 
-Added essays: [Communities and Us](../essays/2021-05-28-communities-and-us.md), [Same Singapore but Different](../essays/2021-07-12-same-singapore-but-different.md), and [Stronger Within](../essays/2022-05-26-stronger-within.md). These were a select few of my essays that featured commentary on social issues in Singapore, and received recognition.
+Added essays: [Stronger Within](../essays/2022-05-26-stronger-within.md). This was one of my essays that featured commentary on social issues in Singapore, and received recognition.
 
 ## January 2022
 **2nd.** <br>
