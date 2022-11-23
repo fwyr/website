@@ -49,6 +49,17 @@ headtitle: a blip in time - about
     </div>
 </div>
 
+<hr>
+
+## achievements
+### 2022
+- Splash Awards: **Finalist**
+- HACK@AC CTF: **2nd in Interschool Category, 4th Overall**
+- LiveOn Essay Competition: **Distinction**
+- National Olympics in Informatics: **Bronze**
+
+### 2021
+- **Queen's Commonwealth Essay Competition**: Gold
 
 <hr>
 

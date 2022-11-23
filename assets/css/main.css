@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
-    --main-text-color: #ccc;
+    --main-text-color: rgb(223, 223, 223);
     --main-title-color: #eee;
     --main-emphasis-color: #fff;
     --main-anchor-color: #fff;
@@ -45,8 +45,6 @@ h4 {
 }
 
 p,
-ul,
-ol,
 li {
     font-size: 120%;
     line-height: 1.8;
@@ -123,6 +121,12 @@ blockquote p {
     margin-top: 6px;
     padding: 0px;
     list-style-type: none;
+}
+
+.menu li,
+.menu ul,
+.menu ol {
+    font-size: 120%;
 }
 
 .menu-item {
@@ -216,6 +220,12 @@ blockquote p {
     font-size: 90%;
     float: right;
     vertical-align: middle;
+}
+
+.page-content li,
+.page-content ul,
+.page-content ol {
+    font-size: 120%;
 }
 
 /* table of contents */
