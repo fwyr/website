@@ -2,7 +2,7 @@
 
 In brief, this repository contains the code of my website.
 
-Always a work in progress. Feel free to access it [here](https://ablipintime.co).
+Always a work in progress: currently on hiatus.
 
 Built using:
 - HTML, CSS, JavaScript
