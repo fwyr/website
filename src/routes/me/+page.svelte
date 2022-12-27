@@ -1,12 +1,11 @@
 <script>
     import PageHeading from "$lib/components/PageHeading.svelte";
-    import Article from "$lib/components/Article.svelte";
 </script>
 
 <PageHeading title="me" subtitle=">whoami" />
 
-<Article>
-    <div class="101">
+<article>
+    <div class="box animate-enter" style="--stagger: 1">
         <h2>101</h2>
         <p><strong>who?</strong> i'm fwyr, a programmer on a planet.</p>
 
@@ -40,12 +39,11 @@
                 target="_blank">Logitech K380 Bluetooth Keyboard</a
             >.
         </p>
-        <hr />
     </div>
 
-    <div>
+    <div class="box animate-enter" style="--stagger: 2">
         <h2>skills</h2>
-        <p><strong>human languages?</strong> English and Mandarin.</p>
+        <p><strong>human languages?</strong> English, Chinese, and compassion.</p>
 
         <p>
             <strong>computer languages?</strong>
@@ -61,7 +59,10 @@
                 rel="noreferrer"
                 target="_blank"
             >
-                CSS,</a
+                CSS</a>/<a 
+                href="https://sass-lang.com/"
+                rel="noreferrer"
+                target="_blank">SASS,</a
             >
             <a
                 href="https://developer.mozilla.org/en-US/docs/Web/javascript"
@@ -163,7 +164,10 @@
             >
         </p>
 
-        <hr />
+    </div>
+    <div class="box animate-enter" style="--stagger: 3">
+        <h2>works</h2>
+        <p>a work in progress.</p>
     </div>
     <!--
           <h2 id="works">works</h2>
@@ -235,8 +239,8 @@
   
           <hr />-->
 
-    <div class="education">
+    <div class="education box animate-enter" style="--stagger: 4">
         <h2>education</h2>
         <p>a very long work in progress.</p>
     </div>
-</Article>
+</article>

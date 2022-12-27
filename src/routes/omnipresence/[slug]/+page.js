@@ -1,11 +1,6 @@
 export async function load({ params }) {
-    const post = await import(`../${params.slug}.md`)
-    const { title, subtitle } = post.metadata
-    const content = post.default
-
+    const post = await import(`./${params.slug}.svelte`)
     return {
-        content,
-        title,
-        subtitle,
-    }
+        slug: post.default
+    };
 }

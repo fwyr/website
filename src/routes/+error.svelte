@@ -1,10 +1,9 @@
 <script>
     import PageHeading from "$lib/components/PageHeading.svelte";
-    import Article from "$lib/components/Article.svelte";
 </script>
 
 <PageHeading title="404" subtitle="page not found." />
-<Article>
+<article>
     <p>
         <em>
             There is a hole at the center of everything, and it is always
@@ -16,5 +15,5 @@
             monstrous existence.
         </em>
     </p>
-    <p>There is something here. <a href="/">Go back?</a></p>
-</Article>
+    <p>There is nothing here. <a href="/">Go back?</a></p>
+</article>

@@ -1,12 +1,10 @@
 <script>
     import PageHeading from "$lib/components/PageHeading.svelte";
-    import Article from "$lib/components/Article.svelte";
 </script>
 
 <PageHeading title="hi, i'm fwyr!" subtitle="nice to meet you." />
-
-<Article>
-    <div class="index-div">
+<article>
+    <div class="index-div animate-enter">
         <span
             >i'm a student who likes all things STEM, with a knack for
             competitive programming, cybersecurity, and web development.</span
@@ -19,4 +17,4 @@
             <a href="./omnipresence">my thoughts</a>.</span
         >
     </div>
-</Article>
+</article>
