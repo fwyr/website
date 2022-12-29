@@ -17,6 +17,7 @@ body {
     margin: auto;
     padding-left: 40px;
     padding-right: 40px;
+    font-weight: 400;
 }
 
 h1,
@@ -24,20 +25,20 @@ h2,
 h3,
 h4 {
     color: $color-white;
-    font-family: $font-header;
+    font-family: $font-title;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 p,
 li {
-    font-size: 18px;
+    font-size: 1.1rem;
     line-height: 1.7;
 }
 
@@ -105,7 +106,7 @@ footer {
 }
 
 .logo {
-    font-family: $font-header;
+    font-family: $font-logo;
     font-size: 300%;
     font-weight: 900;
     font-style: italic;
@@ -134,7 +135,7 @@ footer {
 }
 
 .menu-item a {
-    font-weight: 400;
+    font-weight: 500;
     font-family: $font-header;
     color: $color-white;
 }
@@ -176,87 +177,26 @@ footer {
     margin-top: 0;
 }
 
-.page-content li,
-.page-content ul,
-.page-content ol {
-    font-size: 120%;
-}
-
-
 .index-div {
-    font-size: 22px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     line-height: 1.6;
 }
 
+.index-div p {
+    font-size: 1.3rem;
+}
+
 .box {
     background-color: $color-overlay;
     padding: 5px 25px;
-    box-shadow: 0px 4px 8px 0 rgba($color-muted, 0.2);
-    border-radius: 20px;
-    margin-bottom: 30px;
-}
-
-.card-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    z-index: 1;
-}
-
-.card-container .card {
-    position: relative;
-    width: 270px;
-    height: 400px;
-    margin: 30px 15px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.1);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    padding-bottom: 10px;
-}
-
-.card-container .card .content {
-    padding: 20px;
-    text-align: center;
-    transition: 0.5%;
-}
-
-.card-container .card .content h3 {
-    font-size: 1.8em;
-    z-index: 1;
-}
-
-.card-container .card .content p {
-    font-size: 1em;
-    font-weight: 300;
-}
-
-.card-container .card .content button {
-    position: relative;
-    display: inline-block;
-    padding: 8px 20px;
-    margin-top: 15px;
-    background: #eee;
-    color: #000;
-    border-radius: 20px;
-    text-decoration: none;
-    font-weight: 500;
+    margin-bottom: 30px;
 }
 
 /*************** MEDIA QUERIES (FOR SMALL SCREENS) **************/
 @media (max-width: 500px) {
-
     p,
     ul,
     ol,
@@ -330,444 +270,33 @@ footer {
 }
 
 /*************** LOGO ANIMATION ***************/
-.rainbow {
-    background: linear-gradient(to right, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d, #ff0018, #ffa52c, #ffff41, #008018, #0000f9, #86007d);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: rainbow_animation 12s ease-in-out infinite;
-    background-size: 400% 100%;
+.rainbow span {
+    animation-delay: calc(var(--l)*-100ms);
+    animation: rainbow-animation 3s linear calc(var(--l)*-100ms) infinite forwards running;
 }
 
 
-@keyframes rainbow_animation {
 
-    0%,
-    100% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 100% 0;
-    }
-}
-
-/**************** GLITCH ANIMATION (from http://codepen.io/bulby97/pen/fcvay) ****************/
-.glitch {
-    position: relative;
-    animation: glitch 2s steps(100) infinite;
-}
-
-.glitch p {
-    font-size: 150%;
-}
-
-@keyframes glitch {
+@keyframes rainbow-animation {
     0% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
+        color: $color-red;
     }
-
-    1% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    2% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    3% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    4% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    5% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    6% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    7% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    8% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    9% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    10% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    11% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    12% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    13% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    14% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    15% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    16% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
     17% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+        color: $color-orange;
     }
-
-    18% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    19% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    20% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    21% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    22% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    23% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    24% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    25% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    26% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    27% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    28% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    29% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    30% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    31% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    32% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
     33% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+        color: $color-yellow;
     }
-
-    34% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    35% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    36% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    37% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    38% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    39% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    40% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    41% {
-        text-shadow: 50px 0 0 blue, -50px 0 0 lime;
-    }
-
-    42% {
-        text-shadow: 0 0 0 blue, 0 0 0 lime;
-    }
-
-    43% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    44% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    45% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    46% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    47% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    48% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    49% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
     50% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
+        color: $color-green;
     }
-
-    51% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    52% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    53% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    54% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    55% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    56% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    57% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    58% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    59% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    60% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    61% {
-        text-shadow: 30px 0 0 red, -30px 0 0 lime;
-    }
-
-    62% {
-        text-shadow: 0 0 0 red, 0 0 0 lime;
-    }
-
-    63% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
-    }
-
-    64% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
-    }
-
-    65% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
-    }
-
-    66% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 blue;
-    }
-
     67% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
+        color: $color-blue;
     }
-
-    68% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    69% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    70% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    71% {
-        text-shadow: 70px 0 0 red, -70px 0 0 blue;
-    }
-
-    72% {
-        text-shadow: 0 0 0 red, 0 0 0 blue;
-    }
-
-    73% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    74% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    75% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    76% {
-        text-shadow: 1px 0 0 red, -1px 0 0 blue;
-    }
-
-    77% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    78% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    79% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    80% {
-        text-shadow: -1px 0 0 red, 1px 0 0 blue;
-    }
-
-    81% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    82% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
     83% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
+        color: $color-purple;
     }
-
-    84% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    85% {
-        text-shadow: 0.5px 0 0 red, -0.5px 0 0 lime;
-    }
-
-    86% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    87% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    88% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    89% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    90% {
-        text-shadow: -1px 0 0 red, 1px 0 0 lime;
-    }
-
-    91% {
-        text-shadow: 60px 0 0 lime, -60px 0 0 blue;
-    }
-
-    92% {
-        text-shadow: 0 0 0 lime, 0 0 0 blue;
-    }
-
-    92% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    93% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    94% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    95% {
-        text-shadow: 0.7px 0 0 blue, -0.7px 0 0 lime;
-    }
-
-    96% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    97% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    98% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
-    99% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
-    }
-
     100% {
-        text-shadow: -1px 0 0 blue, 1px 0 0 lime;
+        color: $color-red;
     }
 }
