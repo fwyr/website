@@ -12,11 +12,7 @@
         <p>
             <strong>where?</strong> a 728.6km² piece of land in Southeast Asia
             known as
-            <a
-                href="https://en.wikipedia.org/wiki/Singapore"
-                target="_blank"
-                rel="noreferrer">Singapore</a
-            >.
+            <a href="https://en.wikipedia.org/wiki/Singapore">Singapore</a>.
         </p>
 
         <p><strong>pronouns?</strong> anything goes.</p>
@@ -27,220 +23,102 @@
 
         <p>
             <strong>machines?</strong>
-            <a
-                href="https://support.apple.com/kb/SP813?locale=en_US"
-                rel="noreferrer"
-                target="_blank">13-inch Macbook Air 2020</a
+            <a href="https://support.apple.com/kb/SP813?locale=en_US"
+                >13-inch Macbook Air 2020</a
             >
             +
             <a
                 href="https://www.logitech.com/en-us/products/keyboards/k380-multi-device.920-007558.html"
-                rel="noreferrer"
-                target="_blank">Logitech K380 Bluetooth Keyboard</a
+                >Logitech K380 Bluetooth Keyboard</a
             >.
         </p>
     </div>
 
     <div class="box animate-enter" style="--stagger: 2">
         <h2>skills</h2>
-        <p><strong>human languages?</strong> English, Chinese, and compassion.</p>
+        <p>
+            <strong>human languages?</strong> English and Chinese.
+        </p>
 
         <p>
-            <strong>computer languages?</strong>
-            <a
-                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                rel="noreferrer"
-                target="_blank"
-            >
-                HTML,</a
-            >
-            <a
-                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-                rel="noreferrer"
-                target="_blank"
-            >
-                CSS</a>/<a 
-                href="https://sass-lang.com/"
-                rel="noreferrer"
-                target="_blank">SASS,</a
-            >
-            <a
-                href="https://developer.mozilla.org/en-US/docs/Web/javascript"
-                rel="noreferrer"
-                target="_blank"
-            >
+            <strong>programming languages?</strong>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/javascript">
                 JavaScript,</a
             >
-            <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-                Python,</a
-            >
-            <a href="https://isocpp.org/" target="_blank" rel="noreferrer">
-                C++,</a
-            >
-            and 
-            <a
-                href="https://www.ruby-lang.org/en/"
-                target="_blank"
-                rel="noreferrer"
-            >
-                Ruby.</a
-            >
+            <a href="https://www.python.org/"> Python,</a>
+            <a href="https://isocpp.org/"> C++,</a>
+            and
+            <a href="https://www.ruby-lang.org/en/"> Ruby.</a>
         </p>
 
         <p>
-            <strong>web?</strong>
-            <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
-                Node.js,</a
+            <strong>web dev?</strong>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                HTML,</a
             >
-            <a href="https://svelte.dev/" target="_blank" rel="noreferrer">
-                Svelte</a
-            >/<a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer"
-                >SvelteKit,</a
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                CSS</a
+            >/<a href="https://sass-lang.com/">SASS,</a>
+            <a href="https://nodejs.org/en/"> Node.js,</a>
+            <a href="https://svelte.dev/"> Svelte</a>/<a
+                href="https://kit.svelte.dev/">SvelteKit,</a
             >
-            <a href="https://jekyllrb.com/" target="_blank" rel="noreferrer"
-                >Jekyll,</a
-            >
+            <a href="https://jekyllrb.com/">Jekyll,</a>
             and
-            <a
-                href="https://flask.palletsprojects.com/en/2.2.x/"
-                rel="noreferrer"
-                target="_blank"
-            >
-                Flask.</a
-            >
+            <a href="https://flask.palletsprojects.com/en/2.2.x/"> Flask.</a>
         </p>
 
         <p>
-            <strong>other?</strong>
-            <a
-                href="https://www.tensorflow.org/"
-                target="_blank"
-                rel="noreferrer"
-            >
-                Tensorflow,</a
-            >
-            <a href="https://numpy.org/" target="_blank" rel="noreferrer">
-                NumPy,</a
-            >
+            <strong>AI/ML?</strong>
+            <a href="https://www.tensorflow.org/"> Tensorflow,</a>
+            <a href="https://numpy.org/"> NumPy,</a>
             and
-            <a
-                href="https://pandas.pydata.org/"
-                target="_blank"
-                rel="noreferrer"
-            >
-                Pandas.</a
-            >
+            <a href="https://pandas.pydata.org/"> Pandas.</a>
         </p>
-
+        <p>
+            <strong>game dev?</strong>
+            <a href="https://unity.com/">Unity</a> and
+            <a href="https://docs.unity3d.com/bolt/">Bolt.</a>
+        </p>
+        <p>
+            <strong>version control?</strong>
+            <a href="https://git-scm.com/">Git,</a>
+            <a href="https://github.com/">GitHub,</a> and
+            <a href="https://about.gitlab.com/">GitLab.</a>
+        </p>
         <p>
             <strong>tools?</strong>
-            <a href="https://iterm2.com/" target="_blank" rel="noreferrer"
-                >iTerm2,</a
-            >
-            <a href="https://vscodium.com/" target="_blank" rel="noreferrer"
-                >VSCodium,</a
-            >
-            <a
-                href="https://colab.research.google.com/"
-                target="_blank"
-                rel="noreferrer">Google Colab,</a
-            >
-            <a href="https://replit.com/" target="_blank" rel="noreferrer"
-                >Replit,</a
-            >
-            <a href="https://github.com/" target="_blank" rel="noreferrer"
-                >GitHub,</a
-            >
-            <a href="https://obsidian.md/" target="_blank" rel="noreferrer"
-                >Obsidian,</a
-            >
-            and 
-            <a
-                href="https://www.mozilla.org/en-US/firefox/browsers/"
-                rel="noreferrer"
-                target="_blank">Firefox</a
-            >/<a href="https://librewolf.net/" target="_blank" rel="noreferrer"
-                >LibreWolf.</a
-            >
+            <a href="https://iterm2.com/">iTerm2,</a>
+            <a href="https://vscodium.com/">VSCodium,</a>
+            <a href="https://colab.research.google.com/">Google Colab,</a>
+            <a href="https://replit.com/">Replit,</a>
+            <a href="https://obsidian.md/">Obsidian,</a>
+            and
+            <a href="https://www.mozilla.org/en-US/firefox/browsers/">Firefox</a
+            >/<a href="https://librewolf.net/">LibreWolf.</a>
         </p>
-
     </div>
     <div class="box animate-enter" style="--stagger: 3">
-        <h2>works</h2>
-        <p>a work in progress.</p>
-    </div>
-    <!--
-          <h2 id="works">works</h2>
-          <h3 id="2022">2022</h3>
-  
-          <div class="card-container">
-              <div class="card">
-                  <div class="content">
-                      <h3>REALISER</h3>
-                      <p>
-                          An AI-powered browser extension that detects fake news. <br
-                          />Finalist,
-                          <a
-                              href="https://www.scs.org.sg/awards/splash/2022/"
-                              rel="noreferrer"
-                              target="_blank">Splash Awards 2022</a
-                          >.
-                      </p>
-                      <a
-                          href="https://github.com/fwyr/REALISER/"
-                          rel="noreferrer"
-                          class="card-button"
-                          target="_blank"><button>more info</button></a
-                      >
-                  </div>
-              </div>
-              <div class="card">
-                  <div class="content">
-                      <h3>Stronger Within</h3>
-                      <p>
-                          An essay on Singaporean conservatism affecting organ donation rates. <br
-                          />
-                          Distinction,
-                          <a
-                              href="https://www.liveon.gov.sg/festival.html"
-                              target="_blank"
-                              rel="noreferrer">LiveOn Festival 2022</a
-                          >.
-                      </p>
-                      <a
-                          href="/essays/2022/05/26/stronger-within.html"
-                          class="card-button"><button>more info</button></a
-                      >
-                  </div>
-              </div>
-          </div>
-  
-          <hr />
-  
-          <h2 id="achievements">achievements</h2>
-          <h3 id="2022-1">2022</h3>
-          <ul>
-              <li>Splash Awards: <strong>Finalist</strong></li>
-              <li>
-                  HACK@AC CTF: <strong
-                      >2nd in Interschool Category, 4th Overall</strong
-                  >
-              </li>
-              <li>LiveOn Essay Competition: <strong>Distinction</strong></li>
-              <li>National Olympics in Informatics: <strong>Bronze</strong></li>
-          </ul>
-  
-          <h3 id="2021">2021</h3>
-          <ul>
-              <li>
-                  <strong>Queen’s Commonwealth Essay Competition</strong>: Gold
-              </li>
-          </ul>
-  
-          <hr />-->
-
-    <div class="education box animate-enter" style="--stagger: 4">
-        <h2>education</h2>
-        <p>a very long work in progress.</p>
+        <h2>achievements</h2>
+        <h3>2022</h3>
+        <ul>
+            <li>Edusave Scholarship</li>
+            <li>Splash Awards - Finalist</li>
+            <li>HACK@AC — 2nd Interschool, 4th Overall</li>
+            <li>LiveOn Essay Competition (LOEC) — Distinction</li>
+            <li>National Olympiad in Informatics (NOI) — Bronze</li>
+            <li>Perse Coding Team Challenge (PCTC) — Distinction (R1 & R2)</li>
+        </ul>
+        <h3>2021</h3>
+        <ul>
+            <li>BEBRAS — Exemplary</li>
+            <li>Splash Awards - Shortlisted</li>
+            <li>Queen's Commonwealth Essay Competition (QCEC) — Gold</li>
+            <li>Perse Coding Team Challenge (PCTC) — Distinction (R1)</li>
+        </ul>
+        <h3>2019</h3>
+        <ul>
+            <li>Edusave Scholarship</li>
+        </ul>
     </div>
 </article>

@@ -18,6 +18,11 @@
     <div class="box animate-enter" style="--stagger: 2">
         <h2>2022</h2>
         <h3>December 2022</h3>
+        <p><strong>29th.</strong></p>
+        <ul>
+            <li>Changed styling of logo animation to use more aesthetically pleasing colours.</li>
+            <li>Edited about page to include achievements.</li>
+        </ul>
         <p><strong>27th.</strong></p>
         <ul>
             <li>Further integration of SvelteKit 1.0.

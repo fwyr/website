@@ -2,7 +2,7 @@
     import PageHeading from "$lib/components/PageHeading.svelte";
 </script>
 
-<PageHeading title="omnipresence" subtitle="unprofound musings." />
+<PageHeading title="omnipresence" subtitle="ubiquity." />
 <article>
     <div class="box animate-enter" style="--stagger: 1">
         <h2>meta</h2>
