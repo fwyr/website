@@ -2,12 +2,9 @@
     import PageHeading from "$lib/components/PageHeading.svelte";
 </script>
 
-<PageHeading title="omnipresence" subtitle="ubiquity." />
+<PageHeading title="omnipresence" subtitle="my two cents." />
 <article>
-    <div class="box animate-enter" style="--stagger: 1">
-        <h2>meta</h2>
-        <ul>
-            <li><a href="./omnipresence/changelog">changelog</a></li>
-        </ul>
+    <div class="box animate-enter" style="--stagger: 2">
+        <h2>still in progress.</h2>
     </div>
 </article>

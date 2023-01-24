@@ -29,7 +29,7 @@ h4 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 h3 {
@@ -195,6 +195,10 @@ footer {
     margin-bottom: 30px;
 }
 
+.abstract {
+    text-align: center;
+}
+
 /*************** MEDIA QUERIES (FOR SMALL SCREENS) **************/
 @media (max-width: 500px) {
     p,
@@ -271,10 +275,9 @@ footer {
 
 /*************** LOGO ANIMATION ***************/
 .rainbow span {
-    animation-delay: calc(var(--l)*-100ms);
-    animation: rainbow-animation 3s linear calc(var(--l)*-100ms) infinite forwards running;
+    animation-delay: calc(var(--l)*-90ms);
+    animation: rainbow-animation 3s linear calc(var(--l)*-90ms) infinite forwards running;
 }
-
 
 
 @keyframes rainbow-animation {

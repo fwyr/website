@@ -3,11 +3,8 @@
         <!-- be gay -->
         <a href="/" class="logo rainbow">
             <span style="--l: 0">~</span>
-            <span style="--l: 1">a</span>
-            <span style="--l: 2">b</span><span style="--l: 3">l</span><span style="--l: 4">i</span><span style="--l: 5">p</span>
-            <span style="--l: 6">i</span><span style="--l: 7">n</span>
-            <span style="--l: 8">t</span><span style="--l: 9">i</span><span style="--l: 10">m</span><span style="--l: 11">e</span>
-            <span style="--l: 12">~</span>
+            <span style="--l: 1">b</span><span style="--l: 2">r</span><span style="--l: 3">a</span><span style="--l: 4">i</span><span style="--l: 5">n</span><span style="--l: 6">r</span><span style="--l: 7">o</span><span style="--l: 8">t</span>
+            <span style="--l: 9">~</span>
         </a>
         <!-- do crimes -->
         <ul class="menu">
