@@ -1,14 +1,26 @@
 <script>
-    import Header from "$lib/components/Header.svelte";
-    import Footer from "$lib/components/Footer.svelte";
-    import "$lib/styles/styles.scss";
-    import { fade } from "svelte/transition";
+    import Navbar from '$lib/components/Navbar.svelte';
+    import '$lib/styles/styles.scss';
+    import { fade } from 'svelte/transition';
     export let data;
 </script>
 
-<Header />
+<header>
+    <Navbar />
+</header>
+
 {#key data.currentRoute}
-    <main in:fade={{ duration: 150, delay: 150 }} out:fade={{ duration: 150 }}>
-        <slot />
-    </main>
+    <div in:fade={{ duration: 150, delay: 150 }} out:fade = {{ duration: 150 }}>
+     <slot />
+    </div>
 {/key}
+
+<style lang='scss'>
+    header {
+        overflow: hidden;
+        margin-top: 2.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+</style>
