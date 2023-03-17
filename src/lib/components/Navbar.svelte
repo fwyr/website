@@ -8,19 +8,19 @@
     }
 </script>
 
-<nav>
+<nav class="navbar" id="navbar">
     <!-- be gay -->
     <a href="/" class="logo rainbow">
         <span style="--l: 0">~</span><span style="--l: 1">b</span><span style="--l: 2">r</span><span style="--l: 3">a</span><span style="--l: 4">i</span><span style="--l: 5">n</span><span style="--l: 6">r</span><span style="--l: 7">o</span><span style="--l: 8">t</span><span style="--l: 9">~</span>
     </a>
     <!-- do crimes -->
-    <ul class="menu">
+    <div class="menu">
         {#each data.pages as page} 
-            <li class="menu-item">
+            <div class="menu-item">
                 <a href={page.path}>{page.label}</a>
-            </li>
+            </div>
         {/each}
-    </ul>
+    </div>
 </nav>
 
 <style lang='scss'>
@@ -28,9 +28,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center; 
-    }
-    ul {
-        float: right;
     }
     a {
         transition: 0.2s
@@ -52,9 +49,6 @@
         font-size: 1.75rem;
         margin-right: 2rem;
         display: inline-block;
-        &:last-child {
-            margin-right: 0;
-        }
     }
     .rainbow span {
         animation-delay: calc(var(--l)*-90ms);
@@ -81,6 +75,22 @@
         }
         100% {
             color: #fb5b44;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .logo {
+            font-size: 2rem;
+        }
+        .menu-item {
+            font-size: 1.5rem;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .logo {
+            font-size: 1.75rem;
+        }
+        .menu-item {
+            font-size: 1.25rem;
         }
     }
 </style>

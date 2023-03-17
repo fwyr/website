@@ -10,7 +10,7 @@
 
 <main>
     <section class="intro animate-enter" style="--stagger: 1">
-        <h1>hi, i'm fwyr!</h1>
+        <h1 class="title">hi, i'm fwyr!</h1>
         <p>a high school student with an unconditional love for science, math, technology, and literature.</p>
         <p>scroll down for more!</p>
         <div class="intro-chevron">
@@ -22,6 +22,7 @@
         <p>currently based in Singapore, my fiery passion for all things STEM transcends boundaries, especially endeavours that involve computers.</p>
         <p>i'm someone with a knack for problem solving, creating, and learning. currently, i surround myself with competitive programming, front-end development, and machine learning.</p>
         <p>i always look forward to expanding my knowledge and being my best self.</p> 
+        
     </section>
     <section class="skills animate-enter" style="--stagger: 3">
         <h2>garnering skillsets.</h2>
@@ -45,11 +46,29 @@
         font-size: 1.125rem;
     }
     .intro {
-        font-size: 1.5rem;
         margin-top: 4rem;
+    }
+    .intro p {
+        font-size: 1.5rem;
     }
     .intro-chevron {
         font-size: 2.5rem;
         text-align: center;
+    }
+    @media only screen and (max-width: 992px) {
+        section {
+            margin-left: 15vw;
+            margin-right: 15vw;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .intro p {
+            font-size: 1.25rem;
+        }
+        section {
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
     }
 </style>

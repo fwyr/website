@@ -94,4 +94,15 @@
         border-radius: 1.5rem;
         padding: 0.5rem 1.25rem;
     }
+    @media only screen and (max-width: 992px) {
+        .skill-label {
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .skills-grid {
+            grid-template-columns: auto;
+        }
+    }
 </style>

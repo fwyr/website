@@ -11,16 +11,13 @@
 
 {#key data.currentRoute}
     <div in:fade={{ duration: 150, delay: 150 }} out:fade = {{ duration: 150 }}>
-     <slot />
+        <slot />
     </div>
 {/key}
 
 <style lang='scss'>
     header {
         overflow: hidden;
-        margin-top: 2.5rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        margin-bottom: 1rem;
+        margin: 2.5rem 2rem 1rem 2rem;
     }
 </style>

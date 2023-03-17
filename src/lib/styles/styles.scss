@@ -22,6 +22,33 @@ h6 {
     color: $font-title;
 }
 
+.title {
+    font-size: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+h5 {
+    font-size: 1.125rem;
+}
+h6 {
+    font-size: 1rem;
+}
+p {
+    font-size: 1.125rem;
+}
+
+
 a {
     text-decoration: none;
     color: $color-white;
@@ -45,5 +72,35 @@ hr {
     to {
         opacity: 1;
         transform: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .title,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6, 
+    p {
+        font-size-adjust: 0.5;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    header {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .title,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6, 
+    p {
+        font-size-adjust: 0.5;
     }
 }

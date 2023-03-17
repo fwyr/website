@@ -14,12 +14,12 @@
             {
                 date: "August 2022",
                 title: "Australian Mathematics Competition – Distinction",
-                description: "Competed in Australia's largest mathematics competition for students. I was awarded a certificate of distinction for scoring in the top 20% of contestants."
+                description: "Competed in Australia's largest mathematics competition for students, and awarded a Certificate of Distinction for scoring in the top 20% of contestants."
             },
             {
                 date: "August 2022",
                 title: "LiveOn Essay Festival – Distinction",
-                description: "Wrote an argumentative piece on as to how Singapore's conservative society has been pertinent to the nation's low organ donation rates."
+                description: "Wrote an argumentative piece on as to how Singapore's conservative society has been pertinent in contributing towards the nation's low organ donation rates."
             },
             {
                 date: "March 2022",
@@ -54,7 +54,7 @@
     }
     .timeline-card {
         position: relative;
-        margin: 0 0 1rem 2rem;
+        margin: 0 0 1.25rem 2rem;
         padding: 0.25rem 1.5rem;
         background: #26233a;
         border-radius: 0.5rem;
