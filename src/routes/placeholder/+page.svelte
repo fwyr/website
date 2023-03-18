@@ -15,11 +15,6 @@
     main {
         flex: 1;
     }
-    section {
-        margin-left: 25vw;
-        margin-right: 25vw;
-        margin-bottom: 7.5rem;
-    }
     .intro {
         margin-top: 4rem;
     }

@@ -39,12 +39,6 @@
     main {
         flex: 1;
     }
-    section {
-        margin-left: 25vw;
-        margin-right: 25vw;
-        margin-bottom: 7.5rem;
-        font-size: 1.125rem;
-    }
     .intro {
         margin-top: 4rem;
     }
@@ -55,20 +49,9 @@
         font-size: 2.5rem;
         text-align: center;
     }
-    @media only screen and (max-width: 992px) {
-        section {
-            margin-left: 15vw;
-            margin-right: 15vw;
-        }
-    }
     @media only screen and (max-width: 768px) {
         .intro p {
             font-size: 1.25rem;
-        }
-        section {
-            margin-left: auto;
-            margin-right: auto;
-            width: 90%;
         }
     }
 </style>
