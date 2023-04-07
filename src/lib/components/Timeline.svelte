@@ -2,6 +2,11 @@
     let data = {
         events: [
             {
+                date: "March 2023",
+                title: "26th National Olympiad in Informatics – Silver",
+                description: "Competed in Singapore's national informatics olympiad, where contestants were given 5 hours to solve 5 tasks, and managed to achieve silver for my second time participating."
+            },
+            {
                 date: "December 2022",
                 title: "Edusave Scholarship",
                 description: "Awarded to students who are within the top 10% in their cohort in terms of academic performance."
