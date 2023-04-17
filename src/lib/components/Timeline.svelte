@@ -24,7 +24,7 @@
             {
                 date: "August 2022",
                 title: "LiveOn Essay Festival – Distinction",
-                description: "Wrote an argumentative piece on as to how Singapore's conservative society has been pertinent in contributing towards the nation's low organ donation rates."
+                description: "Wrote an argumentative piece on the pertinence of Singapore's conservative society in contributing towards the nation's low organ donation rates."
             },
             {
                 date: "March 2022",
@@ -63,6 +63,7 @@
         padding: 0.25rem 1.5rem;
         background: #26233a;
         border-radius: 0.5rem;
+        font-size-adjust: 0.5;
     }
     .timeline-date {
         margin-bottom: 0;
@@ -81,5 +82,4 @@
         border-radius: 999rem;
         left: -4.05rem;
     }
-    
 </style>

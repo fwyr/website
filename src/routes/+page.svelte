@@ -18,19 +18,17 @@
         </div>
     </section>
     <section class="more animate-enter" style="--stagger: 2">
-        <h2>eternally exploring.</h2>
+        <h2>🚀  eternally exploring.</h2>
         <p>currently based in Singapore, my fiery passion for all things STEM transcends boundaries, especially endeavours that involve computers.</p>
-        <p>i'm someone with a knack for problem solving, creating, and learning. currently, i surround myself with competitive programming, front-end development, and machine learning.</p>
-        <p>i always look forward to expanding my knowledge and being my best self.</p> 
-        
+        <p>i love solving problems, creating works, and learning wonders. currently, i'm engrossed in competitive programming, front-end web development, and mathematical research.</p>
     </section>
     <section class="skills animate-enter" style="--stagger: 3">
-        <h2>garnering skillsets.</h2>
+        <h2>🧺 garnering skillsets.</h2>
         <p>here's a look at my technical knowledge.</p>
         <Skillset />
     </section>
     <section class="passage animate-enter" style="--stagger: 4">
-        <h2>reaching for the stars.</h2>
+        <h2>💫 reaching for the stars.</h2>
         <Timeline />
     </section>
 </main>
