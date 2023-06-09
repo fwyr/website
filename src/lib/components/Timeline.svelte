@@ -2,6 +2,11 @@
     let data = {
         events: [
             {
+                date: "May 2023",
+                title: "SMPF 2023 – Bronze",
+                description: "Carried out mathematical research over the course of a year and submitted \"Winning at Wordle: A Novel Heuristic using Information Theory\", a paper whereby we ascertained the best starting word for Wordle using the concept of information gain."
+            },
+            {
                 date: "March 2023",
                 title: "26th National Olympiad in Informatics – Silver",
                 description: "Competed in Singapore's national informatics olympiad, where contestants were given 5 hours to solve 5 tasks, and managed to achieve silver for my second time participating."
