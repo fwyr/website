@@ -2,8 +2,28 @@
     let data = {
         events: [
             {
+                date: "December 2022 — now",
+                title: "BuildingBloCS — Organiser",
+                description: "Currently an organiser for BuildingBloCS, Singapore's largest student-run computing advocacy organisation. I've helped to develop hackathon platforms, spoken at workshops, and facilitated the smooth operations behind our large-scale conferences."
+            },
+            {
+                date: "July 2023",
+                title: "Singapore Physics League — Bronze (Junior)",
+                description: "Competed in a 4-hour team-based physics competition, and completed with a bronze medal."
+            },
+            {
                 date: "May 2023",
-                title: "SMPF 2023 – Bronze",
+                title: "Singapore Junior Physics Olympiad — Bronze",
+                description: "Clinched a bronze medal in the 16th Singapore Junior Physics Olympiad."
+            },
+            {
+                date: "May 2023",
+                title: "Singapore Junior Biology Olympiad — Silver",
+                description: "Attained a silver medal in Singapore's annual junior biology olympiad, testing participants on O-Level, A-Level and IBO biology knowledge."
+            },
+            {
+                date: "May 2023",
+                title: "Singapore Mathematics Project Festival – Bronze",
                 description: "Carried out mathematical research over the course of a year and submitted \"Winning at Wordle: A Novel Heuristic using Information Theory\", a paper whereby we ascertained the best starting word for Wordle using the concept of information gain."
             },
             {
