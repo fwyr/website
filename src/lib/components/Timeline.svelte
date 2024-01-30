@@ -64,8 +64,8 @@
     <div class="timeline-outer">
         {#each data.events as event}
             <div class="timeline-card">
-                <h5 class="timeline-date">{event.date}</h5>
-                <h3 class="timeline-title">{event.title}</h3>
+                <h3 class="timeline-date">{event.date}</h3>
+                <h2 class="timeline-title">{event.title}</h2>
                 <p>{event.description}</p>
             </div>
         {/each}

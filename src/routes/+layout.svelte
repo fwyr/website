@@ -18,6 +18,6 @@
 <style lang='scss'>
     header {
         overflow: hidden;
-        margin: 2.5rem 2rem 1rem 2rem;
+        padding: 2.5rem 2rem 1rem 2rem;
     }
 </style>

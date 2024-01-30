@@ -13,7 +13,7 @@
         <!-- be gay -->
         <div>
             <a href="/" class="logo rainbow">
-                <span style="--l: 0">~</span><span style="--l: 1">b</span><span style="--l: 2">r</span><span style="--l: 3">a</span><span style="--l: 4">i</span><span style="--l: 5">n</span><span style="--l: 6">r</span><span style="--l: 7">o</span><span style="--l: 8">t</span><span style="--l: 9">~</span>
+                <span style="--l: 0">~ </span><span style="--l: 1">f</span><span style="--l: 2">w</span><span style="--l: 3">y</span><span style="--l: 4">r </span><span style="--l: 5">~</span>
             </a>
         </div>
         <!-- do crimes -->
