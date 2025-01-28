@@ -11,8 +11,8 @@ tag = 'tags'
 description = "everything that rises must converge"
 
 # Appearance settings
-theme = 'auto'
-colorPalette = 'default'
+theme = 'light'
+colorPalette = 'base16-ocean'
 hideHeader = false
 
 # Intro on main page, content is markdown
