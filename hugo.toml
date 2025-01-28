@@ -1,0 +1,62 @@
+baseURL = 'https://fwyr.cafe/'
+languageCode = 'en-us'
+title = 'Ma Weiyi'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "everything that rises must converge"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Everything'
+homeIntroContent = """
+that rises must converge.
+"""
+
+# Breadcrumbs
+breadcrumbs = false
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/fwyr/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/fwyr"
+
+[[params.social]]
+name = "protonmail"
+url = "mailto:fwyr@proton.me"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "self"
+url = "/self"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"

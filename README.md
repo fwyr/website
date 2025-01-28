@@ -1,3 +1,5 @@
 # website
 
-everything that rises must converge
+mimimimimi
+
+built using [hugo](https://gohugo.io/) and [typo](https://github.com/tomfran/typo).
