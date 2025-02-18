@@ -21,7 +21,7 @@ hidePagination: true
 ### programming
 - [2025.01] **RoboRoarZ**
     - Achieved 4th place in Senior Category.
-- [2023.01] **SIT x ETPS Workshop**
+- [2025.01] **SIT x ETPS Workshop**
     - Engaged in a healthcare hackathon at the Singapore Institute of Technology. Acquired skills related to augmented reality, computer-assisted design, and 3D printing.
 - [2024.11] **BlahajCTF**
 - [2024.09] **World Robot Olympiad (Singapore)**
@@ -34,7 +34,7 @@ hidePagination: true
 - [2021 – 2023] **Perse Coding Team Challenge**
     - Obtained Distinction.
 - [2023.06] **YDSP World of Science (Quantum Mechanics)**
-    - Participated in a one-week course on quantum mechanics. Learnt about wave-particle duality, interferometry superconductors, spectroscopy, and quantum computing.
+    - Participated in a one-week course on quantum mechanics. Learnt about wave-particle duality, interferometry, superconductors, spectroscopy, and quantum computing.
 - [2023.05] **Singapore Mathematics Project Festival**
     - Presented a research paper titled "Winning at Wordle: A Novel Heuristic using Information Theory". Obtained Bronze Award.
 - [2023.03] **National Olympiad in Informatics**

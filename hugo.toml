@@ -1,4 +1,4 @@
-baseURL = 'https://fwyr.cafe/'
+baseURL = 'https://fwyr.dev/'
 languageCode = 'en-us'
 title = 'Ma Weiyi'
 theme = 'typo'
@@ -16,9 +16,9 @@ colorPalette = 'base16-ocean'
 hideHeader = false
 
 # Intro on main page, content is markdown
-homeIntroTitle = 'Everything'
+homeIntroTitle = '>> rejoice'
 homeIntroContent = """
-that rises must converge.
+Happiness must be fought for.
 """
 
 # Breadcrumbs
