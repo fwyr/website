@@ -1,0 +1,14 @@
+{{ $showFooter := default true .Site.Params.showFooter }}
+{{ if $showFooter }}
+    {{ if not .Site.Params.footerContent }}
+    <p>powered by
+        <a href="https://gohugo.io/">hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">typo</a>
+    </p>
+    {{ end }}
+    
+    {{ with .Site.Params.footerContent }}
+    <p>{{ . | markdownify }}</p>
+    {{ end }}
+{{ end }}

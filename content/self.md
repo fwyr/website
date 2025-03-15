@@ -14,7 +14,7 @@ hidePagination: true
 ## 💼 work.
 - [2024 – 2025] [**A\*STAR (Institute of High-Performance Computing)**](https://www.a-star.edu.sg/ihpc/)
     - Researched on adjoint-based inverse design of nanophotonic achromatic metalenses for various numerical apertures and wide FOVs.
-- [2023.12] [**DSO National Laboratories**](https://www.dso.org.sg/)
+- [2023] [**DSO National Laboratories**](https://www.dso.org.sg/)
     - Researched on the design of Merritt-Braunbeck magnetic coils for quantum sensing applications. Presented at the inaugural YDSP Congress.
 
 ## 🏆 competitions & events.
@@ -35,8 +35,6 @@ hidePagination: true
     - Obtained Distinction.
 - [2023.06] **YDSP World of Science (Quantum Mechanics)**
     - Participated in a one-week course on quantum mechanics. Learnt about wave-particle duality, interferometry, superconductors, spectroscopy, and quantum computing.
-- [2023.05] **Singapore Mathematics Project Festival**
-    - Presented a research paper titled "Winning at Wordle: A Novel Heuristic using Information Theory". Obtained Bronze Award.
 - [2023.03] **National Olympiad in Informatics**
     - Obtained Silver Award.
 - [2022.10] **HACK@AC (Interschool)**
@@ -50,8 +48,10 @@ hidePagination: true
 
 
 ### sciences & mathematics
+- [2025.03] **Singapore Science & Engineering Fair**
+    - Obtained Silver Award.
 - [2024.11] **Singapore Physics Olympiad**
-    - Achieved Honourable Mention.
+    - Obtained Honourable Mention.
 - [2024.07] **Singapore Chemistry League**
     - Obtained Bronze Award.
 - [2024.07] **Singapore Physics League (Senior)**
@@ -63,6 +63,8 @@ hidePagination: true
 - [2024.03] **Singapore Amazing Flying Machine Competition (Category C1)**
 - [2024.03] **International Mathematical Modelling Challenge (Singapore)**
     - Obtained Merit.
+- [2023.05] **Singapore Mathematics Project Festival**
+    - Presented a research paper titled "Winning at Wordle: A Novel Heuristic using Information Theory". Obtained Bronze Award.
 - [2023.05] **Singapore Junior Biology Olympiad**
     - Obtained Silver Award.
 - [2023.05] **Singapore Junior Chemistry Olympiad**
