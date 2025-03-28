@@ -1,0 +1,41 @@
+<div class="post-line">
+
+    {{ $dateFormat := "January 2006"}}
+    {{ with .Site.Params.listDateFormat }}
+    {{ $dateFormat = . }}
+    {{ end }}
+
+    <header class="line-title">
+        <h3>{{ .Title }}</h3>
+    </header>
+    <div class="post-summary">
+        <p>{{ .Summary }}</p>
+    </div>
+
+    <footer class="line-date">{{ .Date | time.Format $dateFormat }}</footer>
+
+    <a class="post-link" href="{{ .RelPermalink }}"></a>
+
+
+    <!--
+    {{ $dateFormat := "2 Jan 2006"}}
+    {{ with .Site.Params.listDateFormat }}
+    {{ $dateFormat = .}}
+    {{ end }}
+
+    <p class="line-date">{{ .Date | time.Format $dateFormat }} </p>
+
+
+    <div>
+        <p class="line-title">
+            <a href="{{ .RelPermalink }}">
+                {{ .Title }}
+            </a>
+        </p>
+
+        {{ if .Site.Params.listSummaries }}
+        <p class="line-summary"> {{ .Summary }} </p>
+        {{ end }}
+    </div>
+    -->
+</div>

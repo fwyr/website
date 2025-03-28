@@ -9,7 +9,7 @@ hidePagination: true
 - [2020 – 2025] [**Dunman High School**](https://www.dunmanhigh.moe.edu.sg/)
     - Taking H3 Physics, H2 Physics, H2 Mathematics, H2 Further Mathematics, H2 English Literature, and H1 General Paper.
     - Presented with the DSTA Junior College Scholarship and the MOE Engineering & Tech Programme Scholarship. 
-    - Vice-Chairperson of Infocomm Club, EXCO member of Science Society, member of Robotics Club.
+    - Vice-chairperson of Infocomm Club, EXCO member of Science Society, member of Robotics Club.
 
 ## 💼 work.
 - [2024 – 2025] [**A\*STAR (Institute of High-Performance Computing)**](https://www.a-star.edu.sg/ihpc/)
@@ -19,6 +19,8 @@ hidePagination: true
 
 ## 🏆 competitions & events.
 ### programming
+- [2025.03] **National Olympiad in Informatics**
+    - Obtained Silver Award.
 - [2025.01] **RoboRoarZ**
     - Achieved 4th place in Senior Category.
 - [2025.01] **SIT x ETPS Workshop**
@@ -43,13 +45,16 @@ hidePagination: true
     - Presented REALISER, a region-independent fake news classifier model with word embeddings. Emerged as one of 12 finalist teams.
 - [2022.06] **YDSP Science and Technology Camp**
     - Participated in the YDSP Science and Technology Camp on the Internet of Things.
+- [2022.03] **National Olympiad in Informatics**
+    - Obtained Bronze Award.
 - [2021.12] **Sieberrsec CTF (Secondary School)**
-    - Obtained 5th place.
+    - Achieved 5th ranking overall.
 
 
 ### sciences & mathematics
+- [2025.03] **Singapore Amazing Flying Machine Competition (Category C1)**
 - [2025.03] **Singapore Science & Engineering Fair**
-    - Obtained Silver Award.
+    - Obtained Silver Award under the Embedded Systems category.
 - [2024.11] **Singapore Physics Olympiad**
     - Obtained Honourable Mention.
 - [2024.07] **Singapore Chemistry League**
@@ -59,7 +64,7 @@ hidePagination: true
 - [2024.05] **Singapore Mathematical Olympiad (Open)**
     - Obtained Bronze Award.
 - [2024.05] **Singapore Mathematical Project Festival (Senior)**
-    - Awarded Silver Award for a mathematical paper titled "On the Critical Density of Minesweeper Boards". Presented at the SMPF Congress 2024 as a finalist project.
+    - Obtained Silver Award for a mathematical paper titled "On the Critical Density of Minesweeper Boards". Presented at the SMPF Congress 2024 as a finalist project.
 - [2024.03] **Singapore Amazing Flying Machine Competition (Category C1)**
 - [2024.03] **International Mathematical Modelling Challenge (Singapore)**
     - Obtained Merit.
