@@ -28,15 +28,11 @@ hidePagination: true
 - [2024.11] **BlahajCTF**
 - [2024.09] **World Robot Olympiad (Singapore)**
     - Finalist. Obtained Bronze Award.
-- [2024.06] **YDSP World of Science (Cryptography)**
-    - Participated in a one-week course on cryptography. Learnt about extensive number theory, symmetric-key & public-key encryption algorithms, and cryptanalysis.
 - [2024.05] **Cyberthon**
 - [2024.03] **National Olympiad in Informatics**
     - Obtained Bronze Award.
 - [2021 – 2023] **Perse Coding Team Challenge**
     - Obtained Distinction.
-- [2023.06] **YDSP World of Science (Quantum Mechanics)**
-    - Participated in a one-week course on quantum mechanics. Learnt about wave-particle duality, interferometry, superconductors, spectroscopy, and quantum computing.
 - [2023.03] **National Olympiad in Informatics**
     - Obtained Silver Award.
 - [2022.10] **HACK@AC (Interschool)**
@@ -61,6 +57,8 @@ hidePagination: true
     - Obtained Bronze Award.
 - [2024.07] **Singapore Physics League (Senior)**
     - Obtained Silver Award.
+- [2024.06] **YDSP World of Science (Cryptography)**
+    - Participated in a one-week course on cryptography. Learnt about extensive number theory, symmetric-key & public-key encryption algorithms, and cryptanalysis.
 - [2024.05] **Singapore Mathematical Olympiad (Open)**
     - Obtained Bronze Award.
 - [2024.05] **Singapore Mathematical Project Festival (Senior)**
@@ -68,6 +66,8 @@ hidePagination: true
 - [2024.03] **Singapore Amazing Flying Machine Competition (Category C1)**
 - [2024.03] **International Mathematical Modelling Challenge (Singapore)**
     - Obtained Merit.
+- [2023.06] **YDSP World of Science (Quantum Mechanics)**
+    - Participated in a one-week course on quantum mechanics. Learnt about wave-particle duality, interferometry, superconductors, spectroscopy, and quantum computing.
 - [2023.05] **Singapore Mathematics Project Festival**
     - Presented a research paper titled "Winning at Wordle: A Novel Heuristic using Information Theory". Obtained Bronze Award.
 - [2023.05] **Singapore Junior Biology Olympiad**

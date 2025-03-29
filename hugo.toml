@@ -21,7 +21,10 @@ homeIntroContent = """
 Happiness must be fought for.
 """
 
-listDateFormat = 'Jan 2006'
+listDateFormat = 'January 2006'
+
+paginationSize = 100
+listSummaries = true
 
 # Breadcrumbs
 breadcrumbs = false
@@ -47,6 +50,10 @@ url = "/"
 [[params.menu]]
 name = "self"
 url = "/self"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
 
 # Syntax highlight on code blocks
 [markup]
