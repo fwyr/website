@@ -67,6 +67,7 @@ html {
   li {
     margin-left: var(--li-indent);
     margin-bottom: var(--ul-margin-bottom);
+    line-height: var(--p-line-height);
   }
   
   ul li ul li {

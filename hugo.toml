@@ -55,6 +55,10 @@ url = "/self"
 name = "projects"
 url = "/projects"
 
+[[params.menu]]
+name = "notes"
+url = "/notes"
+
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]

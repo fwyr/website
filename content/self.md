@@ -18,7 +18,7 @@ hidePagination: true
     - Researched on the design of Merritt-Braunbeck magnetic coils for quantum sensing applications. Presented at the inaugural YDSP Congress.
 
 ## 🏆 competitions & events.
-### programming
+### *programming*
 - [2025.03] **National Olympiad in Informatics**
     - Obtained Silver Award.
 - [2025.01] **RoboRoarZ**
@@ -47,7 +47,7 @@ hidePagination: true
     - Achieved 5th ranking overall.
 
 
-### sciences & mathematics
+### *sciences & mathematics*
 - [2025.03] **Singapore Amazing Flying Machine Competition (Category C1)**
 - [2025.03] **Singapore Science & Engineering Fair**
     - Obtained Silver Award under the Embedded Systems category.
@@ -78,7 +78,7 @@ hidePagination: true
 - [2023.07] **Singapore Physics League (Junior)**
     - Obtained Bronze Award.
 
-### language arts
+### *language arts*
 - [2023] **LiveOn Festival Essay Competition**
     - Obtained High Distinction.
 - [2020] **Queen's Commonwealth Essay Competition**
