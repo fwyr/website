@@ -6,4 +6,4 @@ hidePagination: true
 ---
 
 what???
-- [H2 PHYSICS NOTES](./h2-physics.pdf)
+- [H2 PHYSICS NOTES](./notes/h2-physics.pdf)
