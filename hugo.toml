@@ -63,3 +63,9 @@ url = "/notes"
 [markup]
 [markup.highlight]
 style = 'algol'
+
+# Umami analytics
+[params.umami]
+enable = true
+websiteId = "9141f171-93c8-4bb6-a623-2ba6c4bbc75f"
+jsLocation = "https://cloud.umami.is/script.js"
