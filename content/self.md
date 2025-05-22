@@ -9,7 +9,8 @@ hidePagination: true
 - [2020 – 2025] [**Dunman High School**](https://www.dunmanhigh.moe.edu.sg/)
     - Taking H3 Physics, H2 Physics, H2 Mathematics, H2 Further Mathematics, H2 English Literature, and H1 General Paper.
     - Presented with the DSTA Junior College Scholarship and the MOE Engineering & Tech Programme Scholarship. 
-    - Vice-chairperson of Infocomm Club, EXCO member of Science Society, member of Robotics Club.
+    - Vice-Chairperson of Infocomm Club, EXCO of Science Society, member of Robotics Club.
+    - Top in Physics, 2024.
 
 ## 💼 work.
 - [2024 – 2025] [**A\*STAR (Institute of High-Performance Computing)**](https://www.a-star.edu.sg/ihpc/)
@@ -19,6 +20,12 @@ hidePagination: true
 
 ## 🏆 competitions & events.
 ### *programming*
+- [2025.05] **Cyberthon**
+    - Obtained 11th place.
+- [2025.04] **National Cybersecurity Olympiad**
+    - Obtained Silver Award.
+- [2025.03] **National Olympiad in Artificial Intelligence**
+    - Obtained Silver Award.
 - [2025.03] **National Olympiad in Informatics**
     - Obtained Silver Award.
 - [2025.01] **RoboRoarZ**
@@ -86,8 +93,11 @@ hidePagination: true
 
  
 ## 🤝 volunteering.
-- [2024.03 – present] **Dunman High Campus Chapter**
-    - Started as a Youth for Causes project partnered with Habitat for Humanity. Positioned as an executive committee member and decluttered homes, managed a publicity booth, and held merchandise sales for fundraising.
-- [2022.12 – 2025.01] [**BuildingBloCS**](https://buildingblocs.sg/)
+- [2022.12 – present] [**BuildingBloCS**](https://buildingblocs.sg/)
     - Executive committee member, admin department lead, workshop speaker, and organiser. Oversaw the 2024 December Conference and planned five other events. Supervised several team members and handled various tasks, including participant detail management, organisational budgeting, and administrative inventory. 
+- [2025.05] **DHS x WSPS Collaboration**
+    - Conducted sustainability-related workshops for White Sands Primary School under Dunman High's Science Society. Planned logistics and lesson plans, and helped primary school students to create a closed-environment terrarium from scratch.
+- [2024.03 – 2025.03] **Dunman High Campus Chapter**
+    - Started as a Youth for Causes project partnered with Habitat for Humanity. Positioned as an executive committee member and decluttered homes, managed a publicity booth, and held merchandise sales for fundraising.
+
 
