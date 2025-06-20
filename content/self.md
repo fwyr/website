@@ -99,5 +99,3 @@ hidePagination: true
     - Conducted sustainability-related workshops for White Sands Primary School under Dunman High's Science Society. Planned logistics and lesson plans, and helped primary school students to create a closed-environment terrarium from scratch.
 - [2024.03 – 2025.03] **Dunman High Campus Chapter**
     - Started as a Youth for Causes project partnered with Habitat for Humanity. Positioned as an executive committee member and decluttered homes, managed a publicity booth, and held merchandise sales for fundraising.
-
-
