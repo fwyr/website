@@ -10,7 +10,7 @@ date: 2024-05-01
 
 This project was selected as a finalist presentation at the Singapore Mathematics Project Festival (SMPF) Congress and thereafter awarded **Silver**.
 
-Please visit [Eytan Chong's website](https://asdia.dev/papers/minesweeper/) for the paper, code, and citation details.
+Please visit [Eytan Chong's website](https://asdia.dev/) for the paper, code, and citation details.
 
 
 ### Abstract

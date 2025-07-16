@@ -44,3 +44,7 @@
     bottom: 0;
     box-sizing: border-box;
 }
+
+.gold {
+    color: gold;
+}

@@ -13,6 +13,8 @@ hidePagination: true
     - Top in Physics, 2024.
 
 ## 💼 work.
+- [2022.12 – 2025.06] [**BuildingBloCS**](https://buildingblocs.sg/)
+    - Executive committee member, admin department lead, workshop speaker, and organiser. Oversaw the 2024 December Conference and planned five other events. Supervised several team members and handled various tasks, including participant detail management, organisational budgeting, and administrative inventory. 
 - [2024 – 2025] [**A\*STAR (Institute of High-Performance Computing)**](https://www.a-star.edu.sg/ihpc/)
     - Researched on adjoint-based inverse design of nanophotonic achromatic metalenses for various numerical apertures and wide FOVs.
 - [2023] [**DSO National Laboratories**](https://www.dso.org.sg/)
@@ -20,6 +22,10 @@ hidePagination: true
 
 ## 🏆 competitions & events.
 ### *programming*
+- [2025.06] **International Cybersecurity Olympiad**
+    - Obtained Gold Award for the Side Contest.
+- [2025.06] **Singapore Students' Merger CTF**
+    - Obtained 4th place in Open, 12th overall.
 - [2025.05] **Cyberthon**
     - Obtained 11th place.
 - [2025.04] **National Cybersecurity Olympiad**
@@ -93,8 +99,6 @@ hidePagination: true
 
  
 ## 🤝 volunteering.
-- [2022.12 – present] [**BuildingBloCS**](https://buildingblocs.sg/)
-    - Executive committee member, admin department lead, workshop speaker, and organiser. Oversaw the 2024 December Conference and planned five other events. Supervised several team members and handled various tasks, including participant detail management, organisational budgeting, and administrative inventory. 
 - [2025.05] **DHS x WSPS Collaboration**
     - Conducted sustainability-related workshops for White Sands Primary School under Dunman High's Science Society. Planned logistics and lesson plans, and helped primary school students to create a closed-environment terrarium from scratch.
 - [2024.03 – 2025.03] **Dunman High Campus Chapter**
