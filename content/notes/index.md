@@ -1,7 +1,7 @@
 ---
 title: ">> notes"
 description: "i'm here!"
-hideBackToTop: false
+hideBackToTop: true
 hidePagination: true
 ---
 
