@@ -1,6 +1,6 @@
 baseURL = 'https://fwyr.dev/'
 languageCode = 'en-us'
-title = 'Ma Weiyi'
+title = 'ma weiyi'
 theme = 'typo'
 
 [taxonomies]
@@ -14,12 +14,6 @@ description = "everything that rises must converge"
 theme = 'light'
 colorPalette = 'base16-ocean'
 hideHeader = false
-
-# Intro on main page, content is markdown
-homeIntroTitle = '>> rejoice'
-homeIntroContent = """
-Happiness must be fought for.
-"""
 
 listDateFormat = 'January 2006'
 

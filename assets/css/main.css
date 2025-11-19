@@ -191,9 +191,10 @@ html {
   footer {
     font-size: small;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-height: var(--footer-height);
+    margin-bottom: 2rem;
   }
   
   footer a {

@@ -1,6 +1,10 @@
 {{ $showFooter := default true .Site.Params.showFooter }}
 {{ if $showFooter }}
     {{ if not .Site.Params.footerContent }}
+    <a href="https://notbyai.fyi">
+        <img src='{{ "/not-by-ai.svg" | relURL}}'>
+    </a>
+
     <p>powered by
         <a href="https://gohugo.io/">hugo</a>
         and
