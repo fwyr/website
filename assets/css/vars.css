@@ -77,3 +77,17 @@
         --caption-padding: calc(2 * var(--main-padding));
     }
 }
+
+@media screen and (max-width: 500px) {
+    :root {
+        --h1-font-size: 1.8rem;
+        --h2-font-size: 1.5rem;
+        --hx-font-size: 1.2rem;
+        --p-font-size: 0.9em;
+    }
+
+    li {
+        font-size: 0.9em;
+    }
+    
+}

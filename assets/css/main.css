@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    scrollbar-color: var(--content-primary) var(--background);
   }
   
   body {
@@ -195,6 +196,12 @@ html {
     align-items: center;
     max-height: var(--footer-height);
     margin-bottom: 2rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    footer {
+      flex-direction: column-reverse;
+    }
   }
   
   footer a {
