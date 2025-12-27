@@ -22,6 +22,8 @@ hidePagination: true
 
 ## 🏆 competitions & events.
 ### *programming*
+- [2025.12] **Singapore Informatics League**
+    - Obtained Silver Award under *AWDMZ*.
 - [2025.06] **International Cybersecurity Olympiad**
     - Obtained Gold Award for the Side Contest.
 - [2025.06] **Singapore Students' Merger CTF**
@@ -61,6 +63,8 @@ hidePagination: true
 
 
 ### *sciences & mathematics*
+- [2025.07] **Singapore Biology League**
+    - Obtained Gold Award under *ritz cheese*.
 - [2025.03] **Singapore Amazing Flying Machine Competition (Category C1)**
 - [2025.03] **Singapore Science & Engineering Fair**
     - Obtained Silver Award under the Embedded Systems category.
