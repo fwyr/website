@@ -23,5 +23,8 @@
 	},
 	"engines": {
 		"node": ">=22.17"
+	},
+	"dependencies": {
+		"@sveltejs/adapter-vercel": "^7.0.1"
 	}
 }
