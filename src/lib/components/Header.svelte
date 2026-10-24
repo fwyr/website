@@ -1,8 +1,11 @@
 <script>
+	import { page } from '$app/state';
 	import { site, menu } from '#lib/site.js';
 
-	/** @type {{ active?: string }} name of the menu item to show in bold */
-	let { active } = $props();
+	function isCurrent(/** @type {string} */ href) {
+		const path = page.url.pathname;
+		return href === '/' ? path === '/' : path.startsWith(href)
+	}
 </script>
 
 <header>
@@ -10,7 +13,7 @@
 		<h1 class="header-title"><a href="/">{site.title}</a></h1>
 		<nav class="flex">
 			{#each menu as item (item.name)}
-				<p class={['small', item.name === active && 'bold']}>
+				<p class={['small', isCurrent(item.href) && 'bold']}>
 					<a href={item.href}>/{item.name}</a>
 				</p>
 			{/each}

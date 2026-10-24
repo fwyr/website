@@ -9,7 +9,7 @@ export const site = {
 /** Header menu. `name` is also the key a page uses to bold its menu item (see projects/+page.js). */
 export const menu = [
 	{ name: 'home', href: '/' },
-	{ name: 'self', href: '/self/' },
+	{ name: 'whoami', href: '/whoami/' },
 	{ name: 'projects', href: '/projects/' },
 	{ name: 'notes', href: '/notes/' }
 ];
